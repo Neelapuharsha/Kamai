@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import Navbar from '../Navbar';
+
 import Section from '../Section';
 import Footer from '../Footer';
 import Header from '../Header';
@@ -40,7 +40,7 @@ const ParallaxComponent = () => {
       </Parallax>
       <Section id="section3" title="Services" content="We offer a wide range of services to meet your needs." />
       <Parallax
-        bgImage="https://images.unsplash.com/photo-1519305751312-5943e3a6e1c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80"
+        bgImage="https://images.pexels.com/photos/2381463/pexels-photo-2381463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         strength={100}
       >
         <div className="parallax-section">
@@ -48,6 +48,7 @@ const ParallaxComponent = () => {
         </div>
       </Parallax>
       <Section id="section4" title="Contact" content="Get in touch with us to learn more about what we offer." />
+      
       <Footer />
     </div>
   );
