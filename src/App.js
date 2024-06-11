@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main>
+        <section>
+          <h1>Scroll Down</h1>
+          <p>This section has a height of 2000px to enable scrolling and visualize the header behavior.</p>
+        </section>
+      </main>
     </div>
   );
 }
