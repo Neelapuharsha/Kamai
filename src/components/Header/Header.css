@@ -1,0 +1,96 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transition: width 0.8s, border-radius 0.3s, background 0.3s, backdrop-filter 0.3s, margin-top 0.3s;
+    z-index: 1000;
+  }
+  
+  .header.scrolled {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+    margin-top: 10px;
+    transition: width 0.8s;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 6px 20px;
+
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative; /* Added for the pseudo-element positioning */
+    padding: 10px 0; /* Adjusted for better spacing */
+    transition: color 0.3s; /* Smooth color transition */
+    
+  }
+  
+  .menu li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Start from left */
+    height: 2px;
+    width: 0;
+    background-color: #373737;
+    transition: width 0.3s ease, left 0.3s ease; /* Add transition */
+  }
+  
+  .menu li:hover::after {
+    width: 100%;
+    left: 0; /* Expand from left */
+  }
+  
+  .menu li:hover {
+    color: #F59300;
+    font-weight: 700 ;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cta-buttons {
+    display: flex;
+  }
+  
+  .btn {
+    margin-left: 10px;
+    padding: 8px 20px;
+    border: none;
+    background-color: #F59300;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ce7d02;
+  }
+
+  
