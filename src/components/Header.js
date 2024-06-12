@@ -38,7 +38,7 @@ const Header = () => {
           <li>Services</li>
           <li>Contact</li>
         </ul>
-        <div className="logo">KamAi</div>
+        <div className="logo">Project K</div>
         <div className="cta-buttons">
           <button className="btn">Login</button>
           <button className="btn">Sign Up</button>
