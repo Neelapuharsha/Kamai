@@ -1,13 +1,13 @@
 import React from 'react';
-
+import ParallaxComponent from "./components/Parallax/ParallaxComponent"
 import './App.css';
-import ParallaxComponent from './components/Parallax/ParallaxComponent';
+
 
 
 function App() {
   return (
     <div className="App">
-    <ParallaxComponent/>
+      <ParallaxComponent/>
     </div>
   );
 }
