@@ -1,7 +1,9 @@
+
 import React from 'react';
 import './App.css';
 import Section from './components/Section/Section';
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,12 +14,15 @@ function App() {
         backgroundColor="teal" 
         borderTopRightRadius="0px" 
         borderTopLeftRadius="0px" 
-      />
+      >
+    <Footer/>
+      </Section>
       <Section 
         backgroundColor="coral" 
         borderTopRightRadius="40px" 
         borderTopLeftRadius="40px" 
-      />
+      > <Footer/>
+      </Section>
       <Section 
         backgroundColor="#E6E6FA" 
         borderTopRightRadius="40px" 

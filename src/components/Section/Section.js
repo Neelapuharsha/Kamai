@@ -1,7 +1,7 @@
 import React from 'react';
 import './Section.css';
 
-const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius }) => {
+const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius, children }) => {
   return (
     <section 
       className="section" 
@@ -11,7 +11,7 @@ const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius })
         borderTopLeftRadius 
       }}
     >
-      Section 1
+      {children} {/* Render children */}
     </section>
   );
 };
