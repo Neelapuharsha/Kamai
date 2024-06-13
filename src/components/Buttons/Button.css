@@ -19,8 +19,8 @@ button {
   margin-left: 10px;
   padding: 8px 20px;
   border: none;
-  background-color: #F59300;
-  color: white;
+  background-color: white;
+  color: #F59300;
   cursor: pointer;
   border-radius: 50px;
   transition: background-color 0.3s;
@@ -28,6 +28,7 @@ button {
 
 button:hover {
   background-color: #ce7d02;
+  color: white;
 } 
 
 button:focus {
