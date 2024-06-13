@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
+import Button from '../Buttons/Button';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -39,10 +40,10 @@ const Header = () => {
           <li>Contact</li>
         </ul>
         <div className="logo">Project K</div>
-        <div className="cta-buttons">
-          <button className="btn">Login</button>
-          <button className="btn">Sign Up</button>
-        </div>
+      
+
+    <Button text="Download Our App" />
+        
       </nav>
     </header>
   );

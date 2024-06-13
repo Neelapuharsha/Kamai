@@ -73,11 +73,11 @@
   font-weight: bold;
 }
 
-.cta-buttons {
+/* .cta-buttons {
   display: flex;
-}
+} */
 
-.btn {
+/* .btn {
   margin-left: 10px;
   padding: 8px 20px;
   border: none;
@@ -90,12 +90,12 @@
 
 .btn:hover {
   background-color: #ce7d02;
-}
+} */
 
-.btn:focus {
+/* .btn:focus {
   outline: 2px solid #F59300;
   outline-offset: 2px;
-}
+} */
 
 /* Responsive Styles */
 @media (max-width: 768px) {

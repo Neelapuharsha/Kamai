@@ -1,9 +1,7 @@
 import '../Buttons/Button.css';
 
-  const Button = ({width, height, border, padding, textColor, text, backGroundColor }) => {
+  const Button = ({border, padding, textColor, text, backGroundColor }) => {
     const buttonStyle = {
-      width:width,
-      height:height,
       backgroundColor: backGroundColor,
       padding:padding,
       color:textColor,
