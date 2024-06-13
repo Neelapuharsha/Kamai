@@ -2,7 +2,7 @@ import React from 'react';
 import './Section.css';
 import Header from '../Header/Header';
 
-const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius }) => {
+const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius, children }) => {
   return (
     <section 
       className="section" 
@@ -12,6 +12,7 @@ const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius })
         borderTopLeftRadius 
       }}
     >
+      {children} {/* Render children */}
     </section>
   );
 };

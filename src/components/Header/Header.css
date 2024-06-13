@@ -1,25 +1,28 @@
+
+
 .header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #fff;
-  transition: width 0.8s, border-radius 0.8s, background 0.5s, backdrop-filter 0.5s, margin-top 0.5s;
+  transition: width 0.8s, border-radius 0.3s, background 0.3s, backdrop-filter 0.3s, margin-top 0.3s;
   z-index: 1000;
 }
 
 .header.scrolled {
   width: 80%;
-  left: 50%;
-  transform: translateX(-50%);
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
   margin-top: 10px;
 }
+
 
 .nav {
   display: flex;
@@ -28,7 +31,6 @@
   width: 100%;
   max-width: 1200px;
   padding: 6px 20px;
-
 }
 
 .menu {
@@ -42,12 +44,8 @@
   margin-right: 20px;
   cursor: pointer;
   position: relative;
-  /* Added for the pseudo-element positioning */
   padding: 10px 0;
-  /* Adjusted for better spacing */
   transition: color 0.3s;
-  /* Smooth color transition */
-
 }
 
 .menu li::after {
@@ -55,22 +53,20 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  /* Start from left */
   height: 2px;
   width: 0;
   background-color: #373737;
   transition: width 0.3s ease, left 0.3s ease;
-  /* Add transition */
 }
 
 .menu li:hover::after {
   width: 100%;
   left: 0;
-  /* Expand from left */
 }
 
 .menu li:hover {
   color: #F59300;
+  font-weight: 700;
 }
 
 .logo {
@@ -95,4 +91,39 @@
 
 .btn:hover {
   background-color: #ce7d02;
+}
+
+.btn:focus {
+  outline: 2px solid #F59300;
+  outline-offset: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .cta-buttons {
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }
