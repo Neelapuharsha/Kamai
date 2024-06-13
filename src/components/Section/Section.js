@@ -1,5 +1,6 @@
 import React from 'react';
 import './Section.css';
+import Header from '../Header/Header';
 
 const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius }) => {
   return (
@@ -11,7 +12,6 @@ const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius })
         borderTopLeftRadius 
       }}
     >
-      Section 1
     </section>
   );
 };
