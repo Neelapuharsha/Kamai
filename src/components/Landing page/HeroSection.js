@@ -67,7 +67,7 @@ const HeroSection = () => {
             </div>
             <h1>Build Your Future, Grab your Dream Job</h1>
             <p>Transform your career aspirations into achievements and embrace a future filled with passion and purpose with <strong> KamAi</strong> by your side! </p>
-            <Button text="Download Our App" />
+            <Button className="primary-btn" text="Download Our App" />
           </div>
           
           <div className="hero-images">

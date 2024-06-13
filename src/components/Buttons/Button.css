@@ -1,20 +1,6 @@
-/* button {
-  border: 1px solid #946feb;
-  border-radius: 6px; 
-  background-color: black; 
-  color: white; 
-  padding: 8px 22px;
-  width: 40px;
-  height: 50px;
-  font-size: 14px; 
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-} */
 button {
   display: flex;
 }
-
 button {
   padding: 8px 20px;
   border: none;
@@ -26,12 +12,28 @@ button {
   transition: background-color 0.3s;
   font-weight: 600;
 }
-
 button:hover {
   background-color: #ce7d02;
 } 
-
 button:focus {
   outline: 2px solid #F59300;
   outline-offset: 2px;
+}
+.primary-btn:hover{
+      background-color: #ce7d02;
+}
+.secondary-btn{
+  padding: 8px 20px;
+  border: 1px solid #F59300;
+  background-color: white;
+  letter-spacing: 0.3px;
+  color: #F59300;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+.secondary-btn:hover{
+  background-color: #F59300;
+  color: white;
 }
