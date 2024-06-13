@@ -20,10 +20,12 @@ button {
   padding: 8px 20px;
   border: none;
   background-color: #F59300;
-  color: white;
+  letter-spacing: 0.3px;
+  color: rgb(17, 17, 17);
   cursor: pointer;
   border-radius: 50px;
   transition: background-color 0.3s;
+  font-weight: 600;
 }
 
 button:hover {

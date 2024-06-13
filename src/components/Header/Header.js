@@ -40,10 +40,7 @@ const Header = () => {
           <li>Contact</li>
         </ul>
         <div className="logo">Project K</div>
-      
-
-    <Button text="Download Our App" />
-        
+    <Button text="Download Project K" /> 
       </nav>
     </header>
   );
