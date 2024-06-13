@@ -1,0 +1,32 @@
+/* ImageStyles.css */
+
+/* .icon-img {
+    width: 50px;
+    margin-bottom: 10px;
+   
+}
+
+.hero-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* ImageStyles.css */
+
+.icon-img {
+    width: 50px;
+    margin-bottom: 10px;
+    /* Add more styles as needed */
+}
+
+.hero-image {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
