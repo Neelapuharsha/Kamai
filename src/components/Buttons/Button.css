@@ -20,7 +20,8 @@ button:focus {
   outline-offset: 2px;
 }
 .primary-btn:hover{
-      background-color: #ce7d02;
+      /* background-color: #ce7d02; */
+      background-color: #F90;
 }
 .secondary-btn{
   padding: 8px 20px;
@@ -34,6 +35,6 @@ button:focus {
   font-weight: 600;
 }
 .secondary-btn:hover{
-  background-color: #F59300;
+  background-color: #F90;
   color: white;
 }

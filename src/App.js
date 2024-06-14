@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
 import HeroSection from './components/Landing page/HeroSection';
 import Button from './components/Buttons/Button';
+import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
 
 function App() {
   
@@ -24,8 +25,10 @@ function App() {
         backgroundColor="coral" 
         borderTopRightRadius="40px" 
         borderTopLeftRadius="40px" 
-      > <Footer/>
-      </Section>
+      > 
+ <FlamingoComponent />
+
+            </Section>
       <Section 
         backgroundColor="#E6E6FA" 
         borderTopRightRadius="40px" 
