@@ -38,3 +38,15 @@ button:focus {
   background-color: #F90;
   color: white;
 }
+
+.third-btn{
+  border: 1.5px solid black;
+  color:black;
+  background-color:transparent;
+}
+
+/* .third-btn:hover{
+  border: 1px solid black;
+  color:white;
+  background-color:black;
+} */
