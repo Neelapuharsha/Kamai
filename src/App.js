@@ -23,22 +23,19 @@ function App() {
       >
         <HeroSection />
       </Section>
-      <Section
-        backgroundColor="coral"
-        borderTopRightRadius="40px"
-        borderTopLeftRadius="40px"
-      >
-        <FlamingoComponent />
+      <Section 
+        backgroundColor="#FFBF78" 
+        borderTopRightRadius="40px" 
+        borderTopLeftRadius="40px" 
+      > 
+ <FlamingoComponent />
 
-      </Section>
-      <Section
-        backgroundColor="#111"
-        borderTopRightRadius="40px"
-        borderTopLeftRadius="40px"
-      >
-        
-      </Section>
-      
+            </Section>
+      <Section 
+        backgroundColor="#EF9C66" 
+        borderTopRightRadius="40px" 
+        borderTopLeftRadius="40px" 
+      />
     </div>
   );
 }

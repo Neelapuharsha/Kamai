@@ -14,7 +14,7 @@ const FlamingoComponent = () => {
     <div className="flamingo-container">
       
       <div className='topLeft-btn'>
-        <Button border='1px solid black' textColor='black' text='MORE OF PROJECT K FEATURES' backGroundColor='transparent' />
+        <Button className="third-btn"  text='MORE OF PROJECT K FEATURES' />
       </div>
       <div className="content">
           <div className='text'>

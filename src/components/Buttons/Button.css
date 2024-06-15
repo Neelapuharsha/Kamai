@@ -13,6 +13,8 @@ button {
   font-weight: 600;
   animation: slideIn 1.5s ease-out forwards;
   opacity: 0; 
+  animation: slideIn 1.5s ease-out forwards;
+  opacity: 0; 
 }
 button:hover {
   background-color: #ce7d02;
@@ -50,4 +52,13 @@ button:focus {
     opacity: 1;
     transform: translateY(0);
   }
+}
+.third-btn{
+  border: 1.5px solid black;
+  color:black;
+  background-color:transparent;
+}
+
+.third-btn:hover{
+  background-color:transparent;
 }
