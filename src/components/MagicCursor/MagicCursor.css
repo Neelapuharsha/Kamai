@@ -1,0 +1,39 @@
+/* MagicCursor.css */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  cursor: none;
+}
+
+body {
+  background-color: #111;
+}
+
+#magic-cursor {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+  z-index: 1000000;
+}
+
+#ball {
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  border: 2px solid;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 1;
+}
