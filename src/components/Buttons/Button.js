@@ -1,6 +1,6 @@
 import '../Buttons/Button.css';
 
-  const Button = ({border, padding, textColor, text, backGroundColor }) => {
+  const Button = ({border, padding, textColor, text, backGroundColor, className}) => {
     const buttonStyle = {
       backgroundColor: backGroundColor,
       padding:padding,
@@ -9,7 +9,7 @@ import '../Buttons/Button.css';
     };
   return (
   <>
-    <button style={buttonStyle}>
+    <button style={buttonStyle} className={className}>
       {text}
     </button>
   </>
