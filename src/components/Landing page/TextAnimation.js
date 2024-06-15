@@ -8,7 +8,7 @@ const TextAnimation = () => {
         <span>K</span>
         <span>a</span>
         <span>m</span>
-        <span>a</span>
+        <span>A</span>
         <span>i</span>
       </p>
     </div>

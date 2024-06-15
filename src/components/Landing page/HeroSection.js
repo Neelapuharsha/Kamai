@@ -24,7 +24,7 @@ const HeroSection = () => {
       setTimeout(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFadeIn(true);
-      }, 900); 
+      }, 1000); 
     },6000);
 
     return () => clearInterval(interval); 

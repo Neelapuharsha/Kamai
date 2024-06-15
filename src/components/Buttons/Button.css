@@ -11,6 +11,8 @@ button {
   border-radius: 50px;
   transition: background-color 0.3s;
   font-weight: 600;
+  animation: slideIn 1.5s ease-out forwards;
+  opacity: 0; 
 }
 button:hover {
   background-color: #ce7d02;
@@ -37,4 +39,15 @@ button:focus {
 .secondary-btn:hover{
   background-color: #F90;
   color: white;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
