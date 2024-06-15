@@ -22,7 +22,7 @@ function App() {
     <HeroSection/>
       </Section>
       <Section 
-        backgroundColor="coral" 
+        backgroundColor="#FFBF78" 
         borderTopRightRadius="40px" 
         borderTopLeftRadius="40px" 
       > 
@@ -30,7 +30,7 @@ function App() {
 
             </Section>
       <Section 
-        backgroundColor="#E6E6FA" 
+        backgroundColor="#EF9C66" 
         borderTopRightRadius="40px" 
         borderTopLeftRadius="40px" 
       />
