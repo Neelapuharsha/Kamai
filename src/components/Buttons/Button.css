@@ -59,8 +59,6 @@ button:focus {
   background-color:transparent;
 }
 
-/* .third-btn:hover{
-  border: 1px solid black;
-  color:white;
-  background-color:black;
-} */
+.third-btn:hover{
+  background-color:transparent;
+}
