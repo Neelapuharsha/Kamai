@@ -39,7 +39,10 @@ const HeroSection = () => {
           </div>
           <h1>Build Your Future, Grab your Dream Job</h1>
           <p>Transform your career aspirations into achievements and embrace a future filled with passion and purpose with <strong><TextAnimation/></strong> by your side!</p>
+          <div className="button-container">
           <Button className="primary-btn" text="Download Our App" textColor="white" animation="slideIn 1.5s ease-out forwards; opacity: 0;" />
+          <Button className="secondary-btn" text="Know More" animation="slideIn 1.5s ease-out forwards; opacity: 0;" />
+          </div>
         </div>
 
         <div className="hero-images">
