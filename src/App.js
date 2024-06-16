@@ -8,6 +8,7 @@ import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
 import Highlights from './components/Section/Highlights';
 
 
+
 function App() {
   const highlightsData = [
     {

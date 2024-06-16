@@ -4,7 +4,6 @@ import Button from '../Buttons/Button';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [isOpen, setIsOpen] = useState(false); // State to manage mobile menu open/close
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,28 +30,17 @@ const Header = () => {
     };
   }, []);
 
-  // Toggle function for mobile menu
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <nav className="nav">
-        
-        <ul className={`menu ${isOpen ? 'open' : ''}`}>
+        <ul className="menu">
           <li>Home</li>
           <li>About</li>
           <li>Services</li>
           <li>Contact</li>
         </ul>
         <div className="logo">Project K</div>
-        <Button className="btn" text="Download Project K" textColor="white" />
-        <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
+    <Button className="btn" text="Download Project K" textColor="white" /> 
       </nav>
     </header>
   );
