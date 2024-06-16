@@ -4,6 +4,8 @@
     font-weight: bold;
     color: #333;
     white-space: nowrap;
+    /* animation: slideIn 1.5s ease-out forwards;
+    opacity: 0;  */
   }
   
   .animated-text {
@@ -46,7 +48,7 @@
   @keyframes letter-animation {
     0% {
       opacity: 0;
-      /* transform: translateY(50px); */
+      /* transform: translateY(0px); */
     }
     10%, 90% {
       opacity: 1;
@@ -54,7 +56,17 @@
     }
     100% {
       opacity: 0;
-      /* transform: translateY(-50px); */
+      /* transform: translateY(0); */
     }
   }
   
+  /* @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(150px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
