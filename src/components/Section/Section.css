@@ -14,6 +14,6 @@
     /* Optimize for transform changes */
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-  
+    scroll-snap-type: y mandatory;
   }
   

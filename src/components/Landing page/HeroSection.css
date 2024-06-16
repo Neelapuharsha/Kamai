@@ -13,13 +13,12 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .hero-text {
   width:650px;
-  /* flex: 1; */
-  padding-right: 20px;
+  padding-bottom: 10%;
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -68,6 +67,8 @@
   gap: 20px;
   flex: 1;
   max-width: 400px; 
+  width: 100%;
+  padding-right: 8%;
 }
 
 @keyframes slideIn {
@@ -95,6 +96,70 @@
 .button-container {
   display: flex;
   align-items: center;
-  gap: 1rem; /* Adjust the gap between buttons if needed */
-  margin-top: 1rem; /* Add some space above the buttons if needed */
+  gap: 1rem; 
+  margin-top: 1rem; }
+
+@keyframes translateFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
+
+@keyframes translateFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes translateFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* @media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+  }
+
+  .hero-text {
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  .hero-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+} */
+
