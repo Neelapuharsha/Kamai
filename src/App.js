@@ -72,12 +72,14 @@ function App() {
   return (
     <div className="App">
       <Header />
+      
       <Section
         borderTopRightRadius="0px"
         borderTopLeftRadius="0px"
       >
         <HeroSection />
       </Section>
+  
       <Section
         backgroundColor="#FFBF78"
         borderTopRightRadius="40px"
@@ -85,6 +87,7 @@ function App() {
       >
         <FlamingoComponent />
       </Section>
+      
       <Section
         backgroundColor="#FFA500"
         borderTopRightRadius="40px"
@@ -92,7 +95,14 @@ function App() {
       >
         <Highlights highlights={highlightsData} />
       </Section>
-      <Footer />
+      <Section
+        backgroundColor="#111"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+      >
+        <Footer />
+      </Section>
+      
     </div>
   );
 }
