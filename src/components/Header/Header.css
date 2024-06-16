@@ -12,12 +12,13 @@
   transition: width 0.8s, border-radius 0.3s, background 0.3s, backdrop-filter 0.3s, margin-top 0.3s, box-shadow 0.3s;
   z-index: 1000;
   font-family: 'Roboto', sans-serif; /* Modern font */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Subtle drop shadow for normal header */
 }
 
 .header.scrolled {
   width: 80%;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px); 
   margin-top: 10px;
