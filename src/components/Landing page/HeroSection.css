@@ -12,8 +12,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1177px;
   width: 100%;
+  padding-right: 108px;
 }
 
 .hero-text {
@@ -29,10 +30,10 @@
 
 .hero-text h1 {
   width:90%;
-  line-height: 1.5;
-  font-size: 58px;
+  line-height: 1.2;
+  font-size: 56px;
   color: #07294d;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   animation: slideIn 1.5s ease-out forwards;
   opacity: 0; 
 }
@@ -66,7 +67,7 @@
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
   flex: 1;
-  max-width: 400px; 
+  max-width: 375px; 
   width: 100%;
   padding-right: 8%;
 }

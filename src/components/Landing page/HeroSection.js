@@ -99,8 +99,8 @@ const HeroSection = () => {
       setTimeout(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFadeIn(true);
-      }, 1000); // Short delay for fade-out transition
-    }, 3500);
+      }, 900); // Short delay for fade-out transition
+    }, 3800);
 
     return () => clearInterval(interval); 
   }, [images.length]);
