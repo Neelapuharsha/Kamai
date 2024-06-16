@@ -7,22 +7,24 @@ import Footer from './components/Footer/Footer';
 import HeroSection from './components/Landing page/HeroSection';
 import Button from './components/Buttons/Button';
 import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
+import MagicCursor from './components/MagicCursor/MagicCursor';
 
 function App() {
-  
+
   return (
 
     <div className="App">
-    <Header />
-      <Section 
-        backgroundColor="teal" 
-        borderTopRightRadius="0px" 
-        borderTopLeftRadius="0px" 
+      <MagicCursor />
+      <Header />
+      <Section
+        backgroundColor="teal"
+        borderTopRightRadius="0px"
+        borderTopLeftRadius="0px"
       >
-    <HeroSection/>
+        <HeroSection />
       </Section>
       <Section 
-        backgroundColor="coral" 
+        backgroundColor="#FFBF78" 
         borderTopRightRadius="40px" 
         borderTopLeftRadius="40px" 
       > 
@@ -30,7 +32,7 @@ function App() {
 
             </Section>
       <Section 
-        backgroundColor="#E6E6FA" 
+        backgroundColor="#EF9C66" 
         borderTopRightRadius="40px" 
         borderTopLeftRadius="40px" 
       />
