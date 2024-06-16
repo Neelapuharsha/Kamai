@@ -4,9 +4,7 @@ import Section from './components/Section/Section';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HeroSection from './components/Landing page/HeroSection';
-import Button from './components/Buttons/Button';
 import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
-import MagicCursor from './components/MagicCursor/MagicCursor';
 import Highlights from './components/Section/Highlights';
 
 

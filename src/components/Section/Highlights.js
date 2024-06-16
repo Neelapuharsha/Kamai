@@ -30,10 +30,10 @@ const Highlights = ({ highlights }) => {
     setModalIsOpen(true);
   };
 
-  const closeModal = () => {
-    setModalIsOpen(false);
-    setSelectedHighlight(null);
-  };
+  // const closeModal = () => {
+  //   setModalIsOpen(false);
+  //   setSelectedHighlight(null);
+  // };
 
   const settings = {
     dots: true,
