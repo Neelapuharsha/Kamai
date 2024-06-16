@@ -32,10 +32,14 @@ function App() {
 
             </Section>
       <Section 
-        backgroundColor="#EF9C66" 
-        borderTopRightRadius="40px" 
-        borderTopLeftRadius="40px" 
+        backgroundColor="#008080" 
+      >
+        <div className="testing-div" backgroundColor= "#008080">HI</div>
+      </Section>
+      <Section 
+        backgroundColor="#FFC107" 
       />
+      
     </div>
   );
 }

@@ -4,7 +4,7 @@ button {
 button {
   padding: 8px 20px;
   border: none;
-  background-color: #F59300;
+  background-color: #130160;
   letter-spacing: 0.3px;
   color: rgb(17, 17, 17);
   cursor: pointer;
@@ -20,26 +20,26 @@ button:hover {
   background-color: #ce7d02;
 } 
 button:focus {
-  outline: 2px solid #F59300;
+  outline: 2px solid #130160;
   outline-offset: 2px;
 }
 .primary-btn:hover{
       /* background-color: #ce7d02; */
-      background-color: #F90;
+      background-color: #130160;
 }
 .secondary-btn{
   padding: 8px 20px;
-  border: 1px solid #F59300;
+  border: 1px solid #130160;
   background-color: white;
   letter-spacing: 0.3px;
-  color: #F59300;
+  color: #130160;
   cursor: pointer;
   border-radius: 50px;
   transition: background-color 0.3s;
   font-weight: 600;
 }
 .secondary-btn:hover{
-  background-color: #F90;
+  background-color: #130160;
   color: white;
 }
 

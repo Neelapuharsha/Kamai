@@ -81,10 +81,10 @@
 import React, { useState, useEffect } from 'react';
 import './HeroSection.css';
 import ImageComponent from './ImageComponent';
-import student1 from './images/s1.png';
-import student2 from './images/f2.png';
-import student3 from './images/f1.png';
-import student4 from './images/s4.png';
+import student1 from './images/w6.webp';
+import student3 from './images/w5.webp';
+import student2 from './images/w7.webp';
+import student4 from './images/w4.webp';
 import Button from '../Buttons/Button';
 import TextAnimation from './TextAnimation';
 

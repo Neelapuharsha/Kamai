@@ -17,3 +17,8 @@ body, html {
 *{
     box-sizing: content-box;
 }
+.testing-div{
+    background-color: #130160;
+    width: 50%;
+    color: #fff;
+}
