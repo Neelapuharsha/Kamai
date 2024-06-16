@@ -72,7 +72,6 @@ function App() {
     <div className="App">
       <Header />
       <Section
-        backgroundColor="teal"
         borderTopRightRadius="0px"
         borderTopLeftRadius="0px"
       >
