@@ -9,6 +9,7 @@ import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
 import MagicCursor from './components/MagicCursor/MagicCursor';
 import Highlights from './components/Section/Highlights';
 
+
 function App() {
   const highlightsData = [
     {
@@ -71,7 +72,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <MagicCursor /> */}
       <Header />
       <Section
         backgroundColor="teal"
