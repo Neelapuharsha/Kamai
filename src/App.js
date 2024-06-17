@@ -5,7 +5,11 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HeroSection from './components/Landing page/HeroSection';
 import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
+
 import DownloadSection from './components/Download/DownloadSection';
+
+import Contact from './components/Contact/Contact';
+
 
 
 
@@ -30,10 +34,12 @@ function App() {
       </Section>
       
       <Section
-        backgroundColor="#FFA500"
+        backgroundColor="#fff"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
       >
+
+    <Contact />
       </Section>
       <Section
         backgroundColor="#111"

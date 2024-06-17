@@ -1,0 +1,24 @@
+.custom-input {
+    margin-bottom: 1.5rem;
+  }
+  
+  .custom-input label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom-input input {
+    width: 100%;
+    max-width: 330px; /* Adjusted width */
+    height: 40px; /* Adjusted height */
+    padding: 0.3rem ; /* Adjusted padding */
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #fff;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+  }
+  
