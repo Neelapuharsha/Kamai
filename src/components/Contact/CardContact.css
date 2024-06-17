@@ -1,8 +1,5 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
+
 
 .main_div {
     display: flex;
@@ -95,13 +92,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(172, 190, 225);  */
+    background-color: rgb(147, 176, 235);
     border-radius: 5px;
 }
 
 .icon {
-    width: 40px;
-    height:32px;
+    width: 30px;
+    height:30px;
     
     
 }

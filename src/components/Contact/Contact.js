@@ -3,10 +3,9 @@ import CardContact from './CardContact';
 import Input from './Input';
 import TextArea from './TextArea';
 import Button from '../Buttons/Button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import image from "../Contact/location.jpeg";
-import image1 from "../Contact/phone.jpeg";
-import image2 from "../Contact/email.jpeg";
+import image from "../Contact/location1.png";
+import image1 from "../Contact/phone1.png";
+import image2 from "../Contact/email1.png";
 
 
 const Contact = () => {
