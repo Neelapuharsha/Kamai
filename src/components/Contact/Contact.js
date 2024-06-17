@@ -7,7 +7,6 @@ import image from "../Contact/location1.png";
 import image1 from "../Contact/phone1.png";
 import image2 from "../Contact/email1.png";
 
-
 const Contact = () => {
     const [name, setName,] = useState('');
     const [title, setTitle,] = useState('');
@@ -16,7 +15,7 @@ const Contact = () => {
         <div className='main_div'>
             <div className='Contact_info'>
                 <div className='information'>
-                    <h2>Contact Us!</h2>
+                    <h2>Contact Us</h2>
                     {/* <p>Provide most popular courses that your want to join and lets start the course for the most simply courses here you can build your career very smoothly.</p> */}
                 </div>
                 <CardContact
@@ -41,11 +40,7 @@ const Contact = () => {
                 />
             </div>
 
-            <div className='Form_div'>
-                <div className='info_query'>
-                    <h2>Drop us a line</h2>
-                    <p>Please feel free to contact us if you ahve further Questions or cocerns</p>
-                </div>
+            <div className="vertical-line"></div>
                 <div className="card">
 
                     <form>
@@ -82,7 +77,7 @@ const Contact = () => {
 
                 </div>
             </div>
-        </div>
+        
 
     )
 }

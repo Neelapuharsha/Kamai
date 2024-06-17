@@ -13,12 +13,13 @@
     width: 100%;
     max-width: 330px; /* Adjusted width */
     height: 40px; /* Adjusted height */
-    padding: 0.3rem ; /* Adjusted padding */
+    padding: 0.5rem ; /* Adjusted padding */
     font-size: 0.9rem;
     border: none;
     outline: none;
-    border-radius: 6px;
+    border-radius: 15px;
     background-color: #fff;
     box-sizing: border-box; /* Ensure padding is included in width/height */
+    box-shadow: 0 6px 12px rgba(175, 214, 244, 0.3);
   }
   
