@@ -7,8 +7,8 @@ import HeroSection from './components/Landing page/HeroSection';
 import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
 import DownloadSection from './components/Download/DownloadSection';
 import Contact from './components/Contact/Contact';
-
-
+import Highlights from './components/Section/Highlights'
+// import HighlightsMain from './components/Section/Highlights';
 
 
 function App() {
@@ -24,11 +24,12 @@ function App() {
       </Section>
   
       <Section
-        backgroundColor="#FFBF78"
+        backgroundColor="#f1f6fb"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
       >
-        <FlamingoComponent />
+        <Highlights/>
+        {/* <FlamingoComponent /> */}
       </Section>
       
       <Section
