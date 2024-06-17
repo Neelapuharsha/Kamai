@@ -1,0 +1,137 @@
+/* Global Styles */
+
+/* Rotated Scrolling Styles */
+.highlights-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh; /* Note vh and vw switched */
+  height: 100vw;
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-100vh);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* background-color: #f8f8f8; Light gray background for highlights section */
+  margin-top: 50px;
+}
+
+.highlights-article {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-100vh);
+}
+
+/* Hide Scrollbar */
+.highlights-main::-webkit-scrollbar {
+  display: none;
+}
+
+.highlights-main {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Card Styles */
+.highlight-card {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px; /* Width */
+  height: 450px; /* Height */
+  background-color: white;
+  border-radius: 30px; /* Increased rounded edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 50px 15px 0; /* Margin for spacing */
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  scroll-snap-align: start;
+  transform: scale(1);
+}
+.main-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.main-heading h1 {
+  font-size: 32px;
+  color: #1E90FF; /* Bluish color for main heading */
+  font-family: 'Arial', sans-serif;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-image-container {
+  width: 100%;
+  height: 60%; /* Adjusted to fit the new layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.highlight-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 20px; /* Increased rounded edges */
+}
+
+.highlight-text-container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.highlight-text-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  /* color: #0072ff; */
+  font-family: 'Arial', sans-serif;
+}
+
+.highlight-text-container p {
+  font-size: 18px;
+  color: #666;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+/* Keyframes for animations */
+@keyframes cardAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .highlight-card {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .highlight-text-container h3 {
+    font-size: 20px;
+  }
+
+  .highlight-text-container p {
+    font-size: 16px;
+  }
+}
