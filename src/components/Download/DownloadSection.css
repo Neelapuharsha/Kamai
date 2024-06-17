@@ -1,12 +1,4 @@
-/* Style for the main section to center its content and add vertical padding */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-    width: 100%;
-}
-
+/* Style for the main section to center its content and add 
 /* Style for the white download section with increased width and padding */
 .download-section {
     background-color: #f59300;
@@ -55,11 +47,7 @@ main {
 }
 
 /* Style for the button container to display buttons in a row with gaps */
-.button-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
+
 
 /* Style for the download buttons with a rounded pill shape */
 .download-button {
