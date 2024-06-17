@@ -1,11 +1,38 @@
 /* src/components/Footer.css */
 
 .footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-  }
-  
+  width: 88%;
+  height: 80%;
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
 
-  
+.footer-hero-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(56px, 6.66vw, 128px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+.store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.store-button img {
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.store-button img:hover {
+  transform: scale(1.05);
+}
+
+.footer-para-text{
+  margin: 0%;
+  padding: 0%;
+}

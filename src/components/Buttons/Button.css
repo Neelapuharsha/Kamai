@@ -1,10 +1,10 @@
-button {
+/* button {
   display: flex;
 }
 button {
   padding: 8px 20px;
   border: none;
-  background-color: #F59300;
+  background-color: #130160;
   letter-spacing: 0.3px;
   color: rgb(17, 17, 17);
   cursor: pointer;
@@ -20,26 +20,25 @@ button:hover {
   background-color: #ce7d02;
 } 
 button:focus {
-  outline: 2px solid #F59300;
+  outline: 2px solid #130160;
   outline-offset: 2px;
 }
 .primary-btn:hover{
-      /* background-color: #ce7d02; */
-      background-color: #F90;
+      background-color: #130160;
 }
 .secondary-btn{
   padding: 8px 20px;
-  border: 1px solid #F59300;
+  border: 1px solid #130160;
   background-color: white;
   letter-spacing: 0.3px;
-  color: #F59300;
+  color: #130160;
   cursor: pointer;
   border-radius: 50px;
   transition: background-color 0.3s;
   font-weight: 600;
 }
 .secondary-btn:hover{
-  background-color: #F90;
+  background-color: #130160;
   color: white;
 }
 
@@ -52,13 +51,64 @@ button:focus {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 .third-btn{
   border: 1.5px solid black;
   color:black;
   background-color:transparent;
+  padding: 10px 20px;
+  border-radius: 50px;
 }
 
 .third-btn:hover{
   background-color:transparent;
+}
+
+/*Harsha Added Button Styling */
+
+/* Primary Button */
+/* Primary Button */
+.btn {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(45deg, #00c6ff, #0072ff); /* Subtle gradient background */
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: background 0.3s, box-shadow 0.3s; /* Transition box-shadow instead of transform */
+}
+
+.btn:hover {
+  /* background: linear-gradient(45deg, #0072ff, #00c6ff);  */
+  /* Lighter gradient on hover */
+  box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3); /* Subtle box shadow on hover */
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 2px solid #0072ff; /* Outline color */
+  background: none;
+  color: #0072ff;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Transition box-shadow instead of transform */
+}
+
+.btn-secondary:hover {
+  color: #0072ff;
+  border-color: #0072ff; /* Darker border color on hover */
+  box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3); /* Subtle box shadow on hover */
+}
+
+.btn-secondary:focus {
+  outline: none;
 }

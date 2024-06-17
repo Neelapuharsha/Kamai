@@ -40,7 +40,7 @@ const Header = () => {
           <li>Contact</li>
         </ul>
         <div className="logo">Project K</div>
-    <Button text="Download Project K" textColor="white" /> 
+    <Button className="btn" text="Download Project K" textColor="white" /> 
       </nav>
     </header>
   );

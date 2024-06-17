@@ -1,5 +1,11 @@
 import React from 'react';
 import './Highlights.css';
+<<<<<<< HEAD
+=======
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+>>>>>>> 838ea3f2bd1aa3cb14ed1824f7c75653c533ad54
 
 const highlightsData = [
   {
@@ -58,11 +64,62 @@ const highlightsData = [
 
 const Highlights = () => {
   return (
+<<<<<<< HEAD
     <div className="highlights-main">
       <div className="highlights-article">
         {highlightsData.map((highlight, index) => (
           <div className="highlight-section" key={index}>
             <div className="highlight-item">
+=======
+    <div className="slick-arrow slick-next" onClick={onClick}>
+      <span>&#8250;</span>
+    </div>
+  );
+};
+
+const PrevArrow = ({ onClick }) => {
+  return (
+    <div className="slick-arrow slick-prev" onClick={onClick}>
+      <span>&#8249;</span>
+    </div>
+  );
+};
+
+const Highlights = ({ highlights }) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [selectedHighlight, setSelectedHighlight] = useState(null);
+
+  const openModal = (highlight) => {
+    setSelectedHighlight(highlight);
+    setModalIsOpen(true);
+  };
+
+  // const closeModal = () => {
+  //   setModalIsOpen(false);
+  //   setSelectedHighlight(null);
+  // };
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
+
+  return (
+    <div className="highlights-section-wrapper">
+      <div className="highlights-section">
+        <Slider {...settings} className="highlights-slider">
+          {highlights.map((highlight, index) => (
+            <div key={index} className="highlight-item">
+>>>>>>> 838ea3f2bd1aa3cb14ed1824f7c75653c533ad54
               <div className="highlight-image-container">
                 <img src={highlight.image} alt={highlight.title} className="highlight-image" />
               </div>
