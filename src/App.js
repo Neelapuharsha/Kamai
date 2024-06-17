@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HeroSection from './components/Landing page/HeroSection';
 import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
+import DownloadSection from './components/Download/DownloadSection';
 
 
 
@@ -33,7 +34,6 @@ function App() {
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
       >
-        <Highlights highlights={highlightsData} />
       </Section>
       <Section
         backgroundColor="#111"
@@ -41,6 +41,15 @@ function App() {
         borderTopLeftRadius="40px"
       >
         <Footer />
+      </Section>
+      
+      <Section
+
+        backgroundColor="#111"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+      >
+        <DownloadSection />
       </Section>
       
     </div>

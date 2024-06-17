@@ -1,0 +1,81 @@
+/* Style for the main section to center its content and add vertical padding */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+}
+
+/* Style for the white download section with increased width and padding */
+.download-section {
+    background-color: #f59300;
+    text-align: center;
+    padding: 50px; /* Increased padding */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* Increased max-width */
+    display: flex; 
+    margin: auto;/* Use flexbox to align content */
+}
+
+/* Style for the 1/4 section (left side) */
+.quarter-section {
+    flex: 1; /* Take up 1/4 of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; /* Add some margin between sections */
+}
+
+/* Style for the image inside the 1/4 section */
+.quarter-section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Style for the 3/4 section (right side) */
+.three-quarters-section {
+    flex: 3; /* Take up 3/4 of the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the heading in the download section with larger font size */
+.download-section h1 {
+    font-size: 45px; /* Increased font size */
+    font-weight: 200;
+    margin-bottom: 20px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* Style for the button container to display buttons in a row with gaps */
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Style for the download buttons with a rounded pill shape */
+.download-button {
+    background-color: #Ffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #f59300;
+    border-radius: 30px;
+    min-width: 140px;
+    transition: transform 0.2s, border 0.2s; /* Transition for border and transform on hover */
+}
+
+/* Hover effect for download buttons to expand and show selected state */
+.download-button:hover {
+    transform: scale(1.05); /* Subtle expand effect */
+    border: 1px solid #000000; /* Reduced border size */
+}
