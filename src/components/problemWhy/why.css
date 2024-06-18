@@ -71,7 +71,6 @@ p{
 }
 
 .about-right {
-  /* border: 2px solid yellow; */
   width: 50%;  
   margin: 0;
 }
@@ -119,5 +118,24 @@ p{
 
 /* Optional: Smooth transition for opacity change */
 .numbers.d2 span {
-  transition: opacity 0.3s ease; /* Adjust timing and easing as needed */
+  transition: opacity 0.3s ease; 
+  /* Adjust timing and easing as needed */
 }
+
+.numbers:hover{
+  cursor: pointer;
+
+}
+
+/* 
+.about-right.hovered {
+  background-image: url('https://th.bing.com/th/id/OIP.hgSch230TwQUoNuh38NpqAAAAA?w=345&h=345&rs=1&pid=ImgDetMain');
+  opacity: 0.3;
+} */
+
+
+
+
+/* .numbers.d2 span:hover{
+  border: 1px solid yellow;
+} */
