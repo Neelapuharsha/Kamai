@@ -9,6 +9,7 @@ import DownloadSection from './components/Download/DownloadSection';
 import Contact from './components/Contact/Contact';
 import Highlights from './components/Section/Highlights'
 import Sphere from './components/Sphere/Sphere';
+import Why from './components/problemWhy/why';
 // import HighlightsMain from './components/Section/Highlights';
 
 
@@ -31,7 +32,7 @@ function App() {
         borderTopLeftRadius="40px"
       >
         <Highlights/>
-        {/* <FlamingoComponent /> */}
+
       </Section>
       
       <Section
@@ -58,6 +59,16 @@ function App() {
       >
         <DownloadSection />
       </Section>
+
+      <Section
+
+        backgroundColor="#111"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+      >
+       <Why />
+      </Section>
+      
       
     </div>
   );
