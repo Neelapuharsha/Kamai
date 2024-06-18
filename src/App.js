@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import HeroSection from './components/Landing page/HeroSection';
 import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
 import DownloadSection from './components/Download/DownloadSection';
+import Why from './components/problemWhy/why';
 
 
 
@@ -26,14 +27,14 @@ function App() {
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
       >
-        <FlamingoComponent />
       </Section>
       
       <Section
-        backgroundColor="#FFA500"
+        backgroundColor="#111"  //#FFA500
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
       >
+      <Why />
       </Section>
       <Section
         backgroundColor="#111"

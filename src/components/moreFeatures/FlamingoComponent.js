@@ -28,16 +28,23 @@ const FlamingoComponent = () => {
       </div>
     
 
-    <div className='list'>
-          <ul>
-            <li>USA Substantial Presence Test and Physical Presence Test</li>
-            <li>UK Statutory Residence Test</li>
-            <li>EU Schengen Area tracking, 90 in 180 days rule</li>
-            <li>Malaysia residence status day counting</li>
-            <li>South Africa physical presence rule</li>
-            <li>Cyprus residency day counting</li>
-          </ul>
-          </div>
+      <div className="list">
+      <div className="left-column">
+        <ul>
+          <li>USA Substantial Presence Test and Physical Presence Test</li>
+          <li>UK Statutory Residence Test</li>
+          <li>EU Schengen Area tracking, 90 in 180 days rule</li>
+        </ul>
+      </div>
+      <div className="right-column">
+        <ul>
+          <li>Malaysia residence status day counting</li>
+          <li>South Africa physical presence rule</li>
+          <li>Cyprus residency day counting</li>
+        </ul>
+      </div>
+    </div>
+
         
     </div>
     
