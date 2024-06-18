@@ -66,8 +66,7 @@ p{
   font-weight: 500;
   text-transform: uppercase;
   margin: 0;
-  padding-bottom:20px;
-  padding-top: 10px; /* Ensure no extra padding for .p3 */
+  padding-top: 10px;
 }
 
 .about-right {
@@ -127,11 +126,11 @@ p{
 
 }
 
-/* 
+
 .about-right.hovered {
   background-image: url('https://th.bing.com/th/id/OIP.hgSch230TwQUoNuh38NpqAAAAA?w=345&h=345&rs=1&pid=ImgDetMain');
   opacity: 0.3;
-} */
+} 
 
 
 
