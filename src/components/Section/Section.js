@@ -1,6 +1,5 @@
 import React from 'react';
 import './Section.css';
-import Header from '../Header/Header';
 
 const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius, children }) => {
   return (
