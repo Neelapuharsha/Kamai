@@ -1,0 +1,54 @@
+.ball:before {
+    top: var(--light1Y, -50px);
+    left: var(--light1X, -50px);
+  }
+  
+  .ball:after {
+    bottom: var(--light2Y, -30px);
+    right: var(--light2X, -30px);
+  }
+  
+  .ball {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #0072ff;
+    border-radius: 50%;
+    box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.1) 2%, transparent 20%, transparent 10%);
+  }
+  
+  .ball:before, .ball:after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .ball:before {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    filter: blur(10px);
+  }
+  
+  .ball:after {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    filter: blur(15px);
+  }
+  
+  .letter {
+    font-size: 4em;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    position: relative;
+    z-index: 1;
+  }
+  

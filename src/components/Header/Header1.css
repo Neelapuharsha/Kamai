@@ -1,0 +1,72 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    transition: background-color 0.3s ease, font-size 0.3s ease, width 0.3s ease, border-radius 0.3s ease, background 0.3s ease, backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease, margin-top 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header.scrolled {
+    left: 50%;
+    width: 3.8%;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    margin-top: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    /* Layered box shadow */
+}
+
+.header.expanded {
+    left: 10%;
+    width: 80%;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    margin-top: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: blue;
+    /* Example button styles */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.hidden {
+    display: none;
+}
+
+.menu.hidden {
+    display: none;
+}
