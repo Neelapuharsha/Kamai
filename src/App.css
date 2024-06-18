@@ -14,9 +14,12 @@ body, html {
     height: 100%;
     /* overflow-x: hidden; */
 }
-*{
-    box-sizing: content-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
 .testing-div{
     background-color: #130160;
     width: 50%;

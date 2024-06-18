@@ -1,0 +1,26 @@
+.custom-textarea {
+    margin-bottom: 1.5rem;
+  }
+  
+  .custom-textarea label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom-textarea textarea {
+    width: 100%;
+    max-width: 330px; 
+    height: 130px; 
+    padding: 0.5rem; /* Adjusted padding */
+    font: size 0.9em;;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #fff;
+    resize: none;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+    box-shadow: 0 6px 12px rgba(175, 214, 244, 0.3);
+  }
+  

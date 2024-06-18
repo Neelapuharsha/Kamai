@@ -1,0 +1,198 @@
+.main_div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+    /* align-items: center; */
+    padding: 20px;
+    width: 90%;
+    border: 2px solid black;
+    
+    
+}
+.Contact_info {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    margin-top: 40px;
+    /* border: 2px solid blue; */
+    width: 40%;
+}
+
+.information h2 {
+    font-size: 36px;
+     margin-bottom: 45px; 
+    /* border: 2px solid red; */
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 30px;
+    /* color: black; */
+}
+
+/* .information p {
+    font-size: 16px;
+    color: #555;
+    margin-left: 50px;
+    border: 2px solid black;
+    width: 53%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+} */
+.card_div {
+    display: flex;
+    width: 400px;
+    padding: 30px;
+    height: 130px;
+    /* border: 1px solid #c90808; */
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 45px; 
+    align-items: center;
+    transition: background-color 0.3s,transform 0.3s;
+    margin-left: 50px;
+    
+  
+}
+.card_div:hover{
+    animation: zoomOut 2s ease-out infinite alternate
+}
+@keyframes zoomOut{
+    0% {
+      transform: scale(1.03); /* Initial scale */
+    }
+    50% {
+      transform: scale(1.05); /* Slightly larger scale */
+    }
+    100% {
+      transform: scale(1.05); /* Back to initial scale */
+    }
+  }
+.card_div:hover {
+    background:linear-gradient(45deg, #00c6ff, #0072ff); /* Change to your desired hover background color */
+    transform: scale(0.95);
+}
+.card_div:hover .icon_div {
+    background-color: #fff;
+}
+
+.icon_div {
+    padding-right: 20px;
+    transition: background-color 0.3s;
+}
+.card_div:hover .title{
+    color: #fff;
+}
+.card_div:hover .sub_content{
+    color: #fff;
+}
+
+.icon_div {
+    flex: 0 0 auto;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 212, 243);
+    border-radius: 10px;
+}
+
+.icon {
+    width: 30px;
+    height:30px;
+    
+    
+}
+
+.content {
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+}
+.title {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    /* color: #F59300; */
+    /* transition: color 0.3s; */
+    /* border: 1px solid black; */
+}
+.sub_content {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #666;
+    white-space: pre-line;
+    /* border: 1px solid black; */
+    /* transition: color 0.3s; */
+}
+.sub_content_line {
+    display: block;
+    margin-top: 5px; /* Add space between sub-content lines */
+    transition: color 0.3s;
+}
+.card {
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 90px 50px;
+    width: 35%;
+    position: relative;
+    
+    /* border: 2px solid red; */
+    margin-top: 3%;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    background:linear-gradient(45deg, #00c6ff, #0072ff);
+    border-radius: 0 35px 0 100px;
+}
+/* .Form_div{
+    width: 50%; */
+    /* border: 1px solid black; */
+
+/* .info_query{
+     margin-top: 5%; 
+}
+.info_query h2{
+    font-size: 36px;
+    margin-bottom: 10px; 
+   border: 2px solid red;
+   width: 50%;
+   font-family: sans-serif;
+   font-size: 20px;
+   color: #0072ff; */
+
+
+/* .info_query p{
+    font-size: 16px;
+    color: #555;
+    /* margin-left: 10px; */
+    /* border: 2px solid black;
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 18px;  
+} */
+.contact-btn{
+    color: #fff;
+    padding: 10px 120px 10px 110px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border-radius: 20px;
+    border:none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.vertical-line {
+    width: 1px;
+    height: 100px; /* Adjust the height as needed */
+    background-color: gray; /* Adjust the color as needed */
+    margin: 20% 20px; /* Adjust the horizontal margin as needed */
+  }
+.contact-btn:hover{
+  color: #fff;
+  border-color: #0072ff; /* Darker border color on hover */
+  box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3); /* Subtle box shadow on hover */
+}
