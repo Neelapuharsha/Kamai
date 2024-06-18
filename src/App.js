@@ -43,14 +43,9 @@ function App() {
 
     <Contact />
       </Section>
-      <Section
-        backgroundColor="#111"
-        borderTopRightRadius="40px"
-        borderTopLeftRadius="40px"
-      >
-        <Footer />
-      </Section>
-      
+
+
+
       <Section
 
         backgroundColor="#111"
@@ -59,6 +54,17 @@ function App() {
       >
         <Why />
       </Section>
+
+      
+      <Section
+        backgroundColor="#111"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+      >
+        <Footer />
+      </Section>
+      
+      
 
     
       
