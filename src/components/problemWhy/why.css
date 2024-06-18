@@ -1,0 +1,97 @@
+.why-container {
+  width: 88%;
+  height: 80%;
+  border-radius: 50px;
+  border: 4px solid purple;
+  padding: 20px;
+  color: white;
+}
+
+.why-container{
+  display: flex;
+  justify-content: space-around;
+}
+.left{
+  width: 40%;
+  border: 1px solid white;
+  /* display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+ */
+ 
+}
+
+
+
+.paragraph-div{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+
+
+.headings-div{
+  display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+} 
+.headings-div h1{
+  font-size: 30px;
+}
+.left__content__text {
+  margin-top: clamp(24px, 2.5vw, 48px);
+  max-width: 530px;
+}
+p{
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+}
+
+
+.p3 {
+  font-family: "DM Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; /* Ensure no extra padding for .p3 */
+}
+
+.about-right {
+  border: 2px solid yellow;
+  width: 50%;
+  margin: 0;
+}
+
+.right-item {
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding-bottom: 30px; /* Add padding to create space between items */
+}
+
+.numbers {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0; /* Add margin to create space above and below */
+}
+
+.d2 {
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 200;
+  margin: 10px 0; /* Add margin to create space above and below */
+}
