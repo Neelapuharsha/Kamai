@@ -8,12 +8,14 @@ import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
 import DownloadSection from './components/Download/DownloadSection';
 import Contact from './components/Contact/Contact';
 import Highlights from './components/Section/Highlights'
+import Sphere from './components/Sphere/Sphere';
 // import HighlightsMain from './components/Section/Highlights';
 
 
 function App() {
   return (
     <div className="App">
+    
       <Header />
       
       <Section
