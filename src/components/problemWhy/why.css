@@ -96,3 +96,28 @@ p{
   font-weight: 200;
   margin: 10px 0; /* Add margin to create space above and below */
 }
+
+
+
+
+/* Define keyframes for the sliding animation */
+@keyframes slideInRight {
+  0% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Apply the animation to the .numbers.d2 element */
+.numbers.d2 {
+  animation: slideInRight 1s ease-out forwards; /* Adjust timing and easing as needed */
+}
+
+/* Optional: Smooth transition for opacity change */
+.numbers.d2 span {
+  transition: opacity 0.3s ease; /* Adjust timing and easing as needed */
+}
