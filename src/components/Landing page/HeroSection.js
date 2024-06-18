@@ -126,7 +126,7 @@ const HeroSection = () => {
             alt="Student 1" 
             className={`hero-image img-rounded1 ${fadeIn ? 'fade-in' : 'fade-out'}`} 
             style={{ 
-              animation: 'translateFromLeft 1s ease-in-out, border-radius-animation-50 5s infinite alternate' ,
+              animation: 'translateFromTop 1s ease-in-out, border-radius-animation-50 5s infinite alternate' ,
               animationDelay: '0s, 0.5s' ,
               
             }} 
@@ -136,7 +136,7 @@ const HeroSection = () => {
             alt="Student 2" 
             className={`hero-image img-rounded ${fadeIn ? 'fade-in' : 'fade-out'}`} 
             style={{ 
-              animation: 'translateFromTop 1s ease-in-out, border-radius-animation-94 5s infinite alternate' ,
+              animation: 'translateFromRight 1s ease-in-out, border-radius-animation-94 5s infinite alternate' ,
               animationDelay: '0s, 0.5s' 
             }} 
           />
@@ -145,7 +145,7 @@ const HeroSection = () => {
             alt="Student 3" 
             className={`hero-image img-rounded ${fadeIn ? 'fade-in' : 'fade-out'}`} 
             style={{ 
-              animation: 'translateFromRight 1s ease-in-out, border-radius-animation-94 5s infinite alternate' ,
+              animation: 'translateFromLeft 1s ease-in-out, border-radius-animation-94 5s infinite alternate' ,
               animationDelay: '0s, 0.5s' 
             }} 
           />
@@ -154,7 +154,7 @@ const HeroSection = () => {
             alt="Student 4" 
             className={`hero-image img-rounded1 ${fadeIn ? 'fade-in' : 'fade-out'}`} 
             style={{ 
-              animation: 'translateFromBottom 1s ease-in-out, border-radius-animation-50 5s infinite alternate' ,
+              animation: ' translateFromBottom 1s ease-in-out, border-radius-animation-50 5s infinite alternate' ,
               animationDelay: '0s, 0.5s' 
             }} 
           />

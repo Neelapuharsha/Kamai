@@ -9,8 +9,12 @@ import DownloadSection from './components/Download/DownloadSection';
 import Contact from './components/Contact/Contact';
 import Highlights from './components/Section/Highlights'
 import Sphere from './components/Sphere/Sphere';
+<<<<<<< Updated upstream
 import Why from './components/problemWhy/why';
 import Header1 from './components/Header/Header1';
+=======
+import CircularHeader from './components/Header/CircularHeader';
+>>>>>>> Stashed changes
 // import HighlightsMain from './components/Section/Highlights';
 
 
@@ -18,7 +22,11 @@ function App() {
   return (
     <div className="App">
     
+<<<<<<< Updated upstream
       <Header1 />
+=======
+     <CircularHeader/>
+>>>>>>> Stashed changes
       
       <Section
         borderTopRightRadius="0px"
@@ -53,7 +61,7 @@ function App() {
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
       >
-        <Why />
+        
       </Section>
 
       
