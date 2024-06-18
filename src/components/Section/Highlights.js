@@ -3,17 +3,17 @@ import './Highlights.css';
 
 const highlightsData = [
   {
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQupyHDanOgsr8h5rySTs-TICJegt17f9OMSFdLcT4n-jNwPWJvHucGSTfNFXInKtFIQRU&usqp=CAU', // Random image from Unsplash
+    image: 'https://img1.wsimg.com/isteam/stock/2akzpgl/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/fx-gs', // Random image from Unsplash
     title: 'Search Your Job in Your Native Language',
     keyHighlight: 'Job listings in multiple languages',
   },
   {
-    image: 'https://cdn1.vectorstock.com/i/1000x1000/31/80/smart-phone-with-colorful-technology-app-icons-vector-22273180.jpg', // Random image from Unsplash
+    image: 'https://www.essentialrecruitment.co.uk/wp-content/uploads/2023/03/Random-artwork-14.gif', // Random image from Unsplash
     title: 'Create Your Video Resume',
     keyHighlight: 'Record professional video resumes',
   },
   {
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGsYjWX0kL14_hKNL6RcT6IoJA0KZaVW9To8pkdSI_1LtlFgyH6upm4NY3jUW1rT-PJgA&usqp=CAU', // Random image from Unsplash
+    image: 'https://nestscale.com/wp-content/uploads/2022/08/mobile-friendly-1.jpg', // Random image from Unsplash
     title: 'Get Personalized Job Recommendations',
     keyHighlight: 'Tailored job suggestions',
   },

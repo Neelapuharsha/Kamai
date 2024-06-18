@@ -66,7 +66,8 @@ p{
   font-weight: 500;
   text-transform: uppercase;
   margin: 0;
-  padding: 0; /* Ensure no extra padding for .p3 */
+  padding-bottom:20px;
+  padding-top: 10px; /* Ensure no extra padding for .p3 */
 }
 
 .about-right {

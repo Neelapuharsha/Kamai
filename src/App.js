@@ -57,17 +57,10 @@ function App() {
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
       >
-        <DownloadSection />
+        <Why />
       </Section>
 
-      <Section
-
-        backgroundColor="#111"
-        borderTopRightRadius="40px"
-        borderTopLeftRadius="40px"
-      >
-       <Why />
-      </Section>
+    
       
       
     </div>
