@@ -76,7 +76,7 @@ const Why = () => {
 
       <div className={`about-right ${isHovered ? 'hovered' : ''}`}>
         <div className="right-item">
-          <h5 className="p3">clicks</h5>
+          <h5 className="p3 right">clicks</h5>
           <h4 className="numbers d2">
             <span
               onMouseEnter={() => setIsHovered(true)}
@@ -87,7 +87,7 @@ const Why = () => {
           </h4>
         </div>
         <div className="right-item">
-          <h5 className="p3">conversions</h5>
+          <h5 className="p3 right">conversions</h5>
           <h4 className="numbers d2">
             <span
               onMouseEnter={() => setIsHovered(true)}
@@ -98,7 +98,7 @@ const Why = () => {
           </h4>
         </div>
         <div className="right-item">
-          <h5 className="p3">our possibilities</h5>
+          <h5 className="p3 right">our possibilities</h5>
           <h4 className="numbers d2">
             <span
               onMouseEnter={() => setIsHovered(true)}
