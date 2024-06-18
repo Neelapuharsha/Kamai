@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './Header.css';
+import './Header1.css';
 import Button from '../Buttons/Button';
 
-function App() {
+function Header1() {
   const [scrolled, setScrolled] = useState(false);
   const [expanded, setExpanded] = useState(false);
 
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header1;
