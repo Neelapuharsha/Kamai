@@ -21,15 +21,14 @@ const Contact = () => {
                 <CardContact
                     imageSrc={image}
                     title="Company"
-                    subContent="512/F, Central, Main Town/nJackson Heights.
-       hhjhhjjh New York"
+                    subContent="2nd Floor, #6-3-666/A MAIN ROAD P.O, Somajiguda, Hyderabad, Telangana 500082"
                 />
 
                 <CardContact
                     imageSrc={image1}
                     title="Phone number"
-                    subContent="+12345 678 910/n
-                         +12345 910 876"
+                    subContent="+91 8019525165
+                         +91 7993911678"
                 />
 
                 <CardContact
