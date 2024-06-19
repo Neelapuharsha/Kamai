@@ -61,7 +61,7 @@ const Why = () => {
     <div className="why-container">
       <div className='left'>
         <div className='header-p'>
-        <h3 className='p3'><span class="custom-bullet"></span> ABOUT US</h3>
+        <h3 className='p3'><span class="custom-bullet"></span> WHY US</h3>
         </div>
 
         <div className='headings-div'>
