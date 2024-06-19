@@ -18,17 +18,17 @@ const highlightsData = [
     keyHighlight: 'Tailored job suggestions',
   },
   {
-    image: 'https://source.unsplash.com/random/803x600', // Random image from Unsplash
+    image: 'https://thumbs.dreamstime.com/b/expert-advice-rubber-stamp-grunge-design-dust-scratches-effects-can-be-easily-removed-clean-crisp-look-color-easily-82605690.jpg', // Random image from Unsplash
     title: 'Access Expert Career Advice',
     keyHighlight: 'Tips on resume writing',
   },
   {
-    image: 'https://source.unsplash.com/random/804x600', // Random image from Unsplash
+    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrHro6d3BTw7ZZ4IXgfb6_8aESB7-SsWfelDSSInZVamiMSnYpBZzGBaZBBrWxWwYgLqOHuOtroGvGjxrwzdUkhjwuIvM1u6chIblGKS1gQ6JVkjXr-Vztyk2zoYb1ylvhNgLgC5q6M-7LaiXT1xnAT96DvkPx89APNb8JEaz-1mnMRcfaOYYBHzQL/s1600/Text%20to%20Speech%20-%20Social%20-%201024x512.png', // Random image from Unsplash
     title: 'Text to Speech',
     keyHighlight: 'Convert job descriptions to audio',
   },
   {
-    image: 'https://source.unsplash.com/random/805x600', // Random image from Unsplash
+    image: 'https://estricalla.hypotheses.org/files/2021/02/limitedexperience_hero_social.gif', // Random image from Unsplash
     title: 'Create Your Own Resume',
     keyHighlight: 'Build a resume with customizable templates',
   },
