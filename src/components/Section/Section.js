@@ -1,11 +1,12 @@
 import React from 'react';
 import './Section.css';
 
-const Section = ({ backgroundColor, borderTopRightRadius, borderTopLeftRadius, children }) => {
+const Section = ({ backgroundImage, backgroundColor, borderTopRightRadius, borderTopLeftRadius, children }) => {
   return (
     <section 
       className="section" 
       style={{ 
+        backgroundImage,
         backgroundColor, 
         borderTopRightRadius, 
         borderTopLeftRadius 

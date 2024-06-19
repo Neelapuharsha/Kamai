@@ -1,24 +1,46 @@
 .why-container {
+ display: flex;
   width: 89%;
   height: 80%;
   border-radius: 50px;
   /* border: 4px solid white; */
   padding: 20px;
-  color: white;
+  /* color: white; */
+  /* background: linear-gradient(45deg, #00c6ff, #0072ff); */
+}
+.custom-bullet {
+  display: inline-block;
+  width: 10px; /* Adjust size as needed */
+  height: 10px; /* Adjust size as needed */
+  background-color: black;
+  border-radius: 50%; /* To create a circular shape */
+  margin-right: 5px; /* Adjust margin as needed */
+  animation: blink 1s infinite;
+  vertical-align: middle; /* Align with text vertically */
 }
 
-.why-container{
+@keyframes blink {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h3 {
+  margin: 0; /* Remove default margin for h3 */
+  font-weight: normal; /* Reset font weight if needed */
+  display: inline-block; /* Ensure inline display */
+  vertical-align: middle; /* Align with bullet vertically */
+}
+
+/* .why-container{
   display: flex;
   justify-content: space-around;
-}
+} */
 .left{
-  width: 88%;
-  /* border: 1px solid white; */
-  /* display: flex; 
-  flex-direction: column;
-  justify-content: space-between;
- */
- 
+  width: 65%;
 }
 
 
@@ -44,7 +66,7 @@
     unicode-bidi: isolate;
 } 
 .headings-div h1{
-  font-size: 30px;
+  font-size: 40px;
 }
 .left__content__text {
   margin-top: clamp(24px, 2.5vw, 48px);
@@ -69,16 +91,8 @@ p{
   padding-top: 10px;
 }
 
-.about-right {
-  width: 50%;  
-  margin: 0;
-}
 
-.right-item {
-  border-bottom: 1px solid white;
-  margin: 0;
-  padding-bottom: 30px; /* Add padding to create space between items */
-}
+
 
 .numbers {
   font-family: DM Sans;
@@ -89,7 +103,7 @@ p{
 
 .d2 {
   font-family: DM Sans;
-  font-size: 40px;
+  font-size: 70px;
   font-style: normal;
   font-weight: 200;
   margin: 10px 0; /* Add margin to create space above and below */
@@ -123,18 +137,32 @@ p{
 
 .numbers:hover{
   cursor: pointer;
+}
+
+.right-item {
+  border-bottom: 2px solid black;
+  margin: 0;
+  padding-bottom: 20px; /* Add padding to create space between items */
+}
+
+.about-right {
+  position: absolute;
+  width: 32%;  
+  margin: 0;
+  /* border: 2px solid white; */
+  /* z-index: 1; */
 
 }
 
-
-.about-right.hovered {
+/* .right-right{
+  position:absolute;
+  border: 1px solid black;
+  width: 35%;  
+  margin: 0;
+  height: 450px;
+}  */
+/* .right-container.hovered {
   background-image: url('https://th.bing.com/th/id/OIP.hgSch230TwQUoNuh38NpqAAAAA?w=345&h=345&rs=1&pid=ImgDetMain');
-  opacity: 0.3;
-} 
+  z-index: 2;
+}  */
 
-
-
-
-/* .numbers.d2 span:hover{
-  border: 1px solid yellow;
-} */
