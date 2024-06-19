@@ -89,7 +89,7 @@ const Why = () => {
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <NumberAnimation start="0" end="8000" duration="10" suffix="K+" />
+              <NumberAnimation start="0" end="8000" duration="20" suffix="K+" />
             </span>
           </h4>
         </div>
@@ -100,7 +100,7 @@ const Why = () => {
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <NumberAnimation start="0" end="5710" duration="10" suffix="K+" />
+              <NumberAnimation start="0" end="5710" duration="20" suffix="K+" />
             </span>
           </h4>
         </div>

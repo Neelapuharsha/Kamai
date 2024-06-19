@@ -16,7 +16,7 @@ const InfinityAnimation = () => {
         <CountUp
           start={0}
           end={100000000}
-          duration={10}
+          duration={20}
           separator=","
           suffix="+"
           onEnd={handleEnd}

@@ -65,9 +65,7 @@ h3 {
     font-weight: bold;
     unicode-bidi: isolate;
 } 
-.headings-div h1{
-  font-size: 40px;
-}
+
 .left__content__text {
   margin-top: clamp(24px, 2.5vw, 48px);
   max-width: 576px;
@@ -95,14 +93,13 @@ p{
 
 
 .numbers {
-  font-family: DM Sans;
+  font-family: "Onest", sans-serif;
   font-size: 36px;
   font-weight: 700;
   margin: 10px 0; /* Add margin to create space above and below */
 }
 
 .d2 {
-  font-family: DM Sans;
   font-size: 70px;
   font-style: normal;
   font-weight: 200;
@@ -165,4 +162,19 @@ p{
   background-image: url('https://th.bing.com/th/id/OIP.hgSch230TwQUoNuh38NpqAAAAA?w=345&h=345&rs=1&pid=ImgDetMain');
   z-index: 2;
 }  */
+
+.headings-div h1{
+ 
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 
