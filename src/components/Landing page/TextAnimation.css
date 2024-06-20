@@ -4,14 +4,15 @@
     font-weight: bold;
     color: #333;
     white-space: nowrap;
-    /* animation: slideIn 1.5s ease-out forwards;
-    opacity: 0;  */
+     
   }
   
-  .animated-text {
+  .animated-text{
     display: inline-block;
     position: relative;
     animation: text-animation 8s infinite;
+    animation: slideIn 1.5s ease-out forwards;
+    /* opacity: 0; */
   }
   
   .animated-text span {
@@ -60,7 +61,7 @@
     }
   }
   
-  /* @keyframes slideIn {
+  @keyframes slideIn {
     0% {
       opacity: 0;
       transform: translateY(150px);
@@ -69,4 +70,5 @@
       opacity: 1;
       transform: translateY(0);
     }
-  } */
+  }
+
