@@ -20,7 +20,6 @@
 
 
 
-
 import React, { useState, useEffect } from 'react';
 
 const TypingAnimation = ({ speed = 70, cursorBlinkSpeed = 500 }) => {
@@ -44,18 +43,22 @@ const TypingAnimation = ({ speed = 70, cursorBlinkSpeed = 500 }) => {
   }, [text, speed]);
 
   useEffect(() => {
-    if (displayedText.length < text.length) {
+    if (displayedText.length === text.length) {
+      // Stop cursor blinking when typing animation is complete
+      setShowCursor(false);
+    } else {
+      // Start or restart cursor blinking
       const cursorIntervalId = setInterval(() => {
-        setShowCursor((prevShowCursor) => !prevShowCursor);
+        setShowCursor(prevShowCursor => !prevShowCursor);
       }, cursorBlinkSpeed);
-      return () => clearInterval(cursorIntervalId); // Clean up the interval on component unmount
+      return () => clearInterval(cursorIntervalId); // Clean up the interval on component unmount or when typing animation completes
     }
   }, [displayedText, text.length, cursorBlinkSpeed]);
 
   return (
-    <p className="left__content__text">
+    <p className='left__content__text'>
       {displayedText}
-      {showCursor && <span style={{ fontWeight: 'bold', opacity: 0.5 }}>█</span>}
+      {showCursor && <span style={{ fontWeight: 'bold', opacity: 0.5 }}>|</span>}
     </p>
   );
 };
