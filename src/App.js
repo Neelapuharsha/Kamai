@@ -86,7 +86,7 @@ import Highlights from './components/Section/Highlights';
 import Why from './components/problemWhy/why';
 
 import SplineViewer from './components/Footer/SplineViewer';
-import Whatk from './components/WhatSection/Whatk';
+import Whatk from './components/WhatSection/whatk';
 
 function App() {
   const [whyVisible, setWhyVisible] = useState(false);
