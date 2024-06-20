@@ -8,12 +8,12 @@
     /* Make each section stick at the top */
     top: 0;
     /* Stick to the top of the viewport */
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out; 
     /* Smooth transition */
     will-change: transform;
     /* Optimize for transform changes */
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
   }
   
