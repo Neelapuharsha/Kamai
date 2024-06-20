@@ -1,3 +1,6 @@
+/* Import DM Sans font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 /* Global Styles */
 
 /* Rotated Scrolling Styles */
@@ -11,7 +14,6 @@
   transform: rotate(-90deg) translateX(-100vh);
   overflow-x: hidden;
   overflow-y: scroll;
-  /* background-color: #f8f8f8; Light gray background for highlights section */
   margin-top: 50px;
 }
 
@@ -41,8 +43,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 350px; /* Width */
-  height: 450px; /* Height */
   background-color: white;
   border-radius: 30px; /* Increased rounded edges */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -52,22 +52,59 @@
   scroll-snap-align: start;
   transform: scale(1);
 }
+
 .main-heading {
-  width: 100%;
+  width: max-content;
   text-align: center;
   margin-bottom: 30px;
+  padding: 10px; /* Added padding */
+  margin: 10px; /* Added margin */
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
+  color: white; /* Changed to white */
+  /* background-color: #1E90FF; Optional background color */
+  position: sticky; /* Sticky position */
+  top: 0;
+  z-index: 1;
 }
+
 .main-heading h1 {
   font-size: 32px;
-  color: #1E90FF; /* Bluish color for main heading */
-  font-family: 'Arial', sans-serif;
+  font-family: 'DM Sans', sans-serif;
+  margin-left:50px;
+  animation: blink 1s infinite;
+  color: black;
 }
+@keyframes blink {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 
 .highlight-card:hover {
   transform: translateY(-25px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Different styles for each card */
+.square {
+  width: 400px; /* Oversized square width */
+  height: 400px; /* Oversized square height */
+}
+
+.rect-vertical {
+  width: 400px; /* Vertical rectangle width */
+  height: 450px; /* Vertical rectangle height */
+}
+
+.rect-horizontal {
+  width: 550px; /* Horizontal rectangle width */
+  height: 350px; /* Horizontal rectangle height */
 }
 
 .highlight-image-container {
@@ -94,30 +131,18 @@
   justify-content: center;
 }
 
-.highlight-text-container h3 {
+.highlight-text-container h4 {
   font-size: 24px;
+  font-weight: bold;
   margin-bottom: 10px;
-  /* color: #0072ff; */
-  font-family: 'Arial', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .highlight-text-container p {
   font-size: 18px;
-  color: #666;
-  font-family: 'Arial', sans-serif;
+  color: black;
+  font-family: 'DM Sans', sans-serif;
   margin: 0;
-}
-
-/* Keyframes for animations */
-@keyframes cardAnimation {
-  0% {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
 }
 
 /* Responsive Styles */
@@ -127,7 +152,7 @@
     height: 90vw;
   }
 
-  .highlight-text-container h3 {
+  .highlight-text-container h4 {
     font-size: 20px;
   }
 

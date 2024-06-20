@@ -101,8 +101,16 @@ function App() {
       >
         <HeroSection />
       </Section>
-  
       <Section
+      backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
+      borderTopRightRadius="40px"
+      borderTopLeftRadius="40px"
+      onVisible={(visible) => setWhyVisible(visible)}
+    >
+      <Why trigger={whyVisible} />
+    </Section>
+      <Section
+
         backgroundColor="#f1f6fb"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
@@ -110,7 +118,7 @@ function App() {
       >
         <Highlights/>
       </Section>
-      
+
       <Section
         backgroundColor="#fff"
         borderTopRightRadius="40px"
@@ -120,14 +128,7 @@ function App() {
         <Contact />
       </Section>
 
-      <Section
-        backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
-        borderTopRightRadius="40px"
-        borderTopLeftRadius="40px"
-        onVisible={(visible) => setWhyVisible(visible)}
-      >
-        <Why trigger={whyVisible} />
-      </Section>
+      
      
       
       <Section
