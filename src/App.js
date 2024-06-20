@@ -85,6 +85,8 @@ import Contact from './components/Contact/Contact';
 import Highlights from './components/Section/Highlights';
 import Why from './components/problemWhy/why';
 
+import SplineViewer from './components/Footer/SplineViewer';
+
 function App() {
   const [whyVisible, setWhyVisible] = useState(false);
 
@@ -126,14 +128,19 @@ function App() {
       >
         <Why trigger={whyVisible} />
       </Section>
+     
       
       <Section
-        backgroundColor="#111"
+        backgroundColor="#E1EAFF"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
         onVisible={() => {}}
       >
-        <Footer />
+
+
+
+      
+      <SplineViewer/>
       </Section>
     </div>
   );

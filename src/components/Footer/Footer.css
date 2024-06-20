@@ -2,11 +2,11 @@
 .footer {
   width: 88%;
   height: 80%;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #fff;
-}
+} 
 
 .footer-hero-text {
   font-family: "DM Sans", sans-serif;
@@ -35,3 +35,28 @@
   margin: 0%;
   padding: 0%;
 }
+.demo1{
+ 
+  position: absolute;
+  width: 88%;
+  height: 80%;
+}
+.demo2{
+  padding: 8px;
+
+  pointer-events: none;
+  position: absolute;
+  width: 88%;
+  height: 80%;
+}
+.demo3{
+  /* border: 2px solid red; */
+    padding: 8px;
+    position: absolute;
+    top: 80%;
+    width: 88%;
+    height: 15%;
+}
+
+/* Footer.css */
+
