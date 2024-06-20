@@ -7,10 +7,12 @@
    
   }
   
-  .animated-text {
+  .animated-text{
     display: inline-block;
     position: relative;
     animation: text-animation 8s infinite;
+    animation: slideIn 1.5s ease-out forwards;
+    /* opacity: 0; */
   }
   
   .animated-text span {
@@ -60,6 +62,7 @@
     }
   }
   
+  @keyframes slideIn {
   @keyframes slideIn {
     0% {
       opacity: 0;
