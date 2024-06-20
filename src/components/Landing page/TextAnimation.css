@@ -4,17 +4,13 @@
     font-weight: bold;
     color: #333;
     white-space: nowrap;
-    /* animation: slideIn 1.5s ease-out forwards;
-    opacity: 0;  */
+   
   }
   
-  .animated-text {
-    display: inline-block;
-    position: relative;
-    animation: text-animation 8s infinite;
-  }
+  
   
   .animated-text span {
+   
     opacity: 0;
     animation: letter-animation 3.5s infinite;
     animation-delay: 0s;
@@ -48,19 +44,20 @@
   @keyframes letter-animation {
     0% {
       opacity: 0;
-      /* transform: translateY(0px); */
+    
     }
     10%, 90% {
       opacity: 1;
-      /* transform: translateY(0); */
+   
     }
     100% {
       opacity: 0;
-      /* transform: translateY(0); */
+      
     }
   }
   
-  /* @keyframes slideIn {
+  
+  @keyframes slideIn {
     0% {
       opacity: 0;
       transform: translateY(150px);
@@ -69,4 +66,11 @@
       opacity: 1;
       transform: translateY(0);
     }
-  } */
+  }
+  .animated-text{
+    display: inline-block;
+    position: relative;
+    animation: text-animation 8s infinite;
+    animation: slideIn 1.5s ease-out forwards;
+    opacity: 0;
+  }

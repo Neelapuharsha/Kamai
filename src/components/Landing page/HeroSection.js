@@ -80,6 +80,7 @@
 // export default HeroSection;
 import React, { useState, useEffect } from 'react';
 import './HeroSection.css';
+
 import ImageComponent from './ImageComponent';
 import student1 from './images/w6.webp';
 import student3 from './images/w5.webp';
@@ -106,7 +107,9 @@ const HeroSection = () => {
   }, [images.length]);
 
   return (
+    
     <section className="hero">
+    
       <div className="hero-content">
         <div className="hero-text">
           <div className="hero-icon">

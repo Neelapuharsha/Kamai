@@ -32,6 +32,7 @@
   width: 100%;
   max-width: 1200px;
   padding: 10px 20px;
+  
 }
 
 .menu {
@@ -73,7 +74,8 @@
 
 @media (max-width: 768px) {
   .nav {
-    flex-direction: column;
+  flex-direction: column;
+  
   }
 
   .menu {

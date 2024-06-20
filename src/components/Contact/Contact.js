@@ -69,7 +69,7 @@ const Contact = () => {
                             }}
                         />
 
-                        <Button className="contact-btn" text="Send Message"
+                        <Button className="contact-btn" text="Send"
 
                         />
                     </form>

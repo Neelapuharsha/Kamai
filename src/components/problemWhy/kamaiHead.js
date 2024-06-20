@@ -4,7 +4,7 @@ import '../problemWhy/kamaiHead.css'; // Import CSS file for TextAnimation style
 const KamaiHead = () => {
   return (
     <div className="text-animation">
-      <h1 className="animated-text">
+      <h1 className="animatedu-text">
         <span>K</span>
         <span>a</span>
         <span>m</span>

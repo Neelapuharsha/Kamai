@@ -1,24 +1,21 @@
 .why-container {
- display: flex;
-  width: 89%;
-  height: 80%;
-  border-radius: 50px;
-  /* border: 4px solid white; */
-  padding: 20px;
-  /* color: white; */
-  /* background: linear-gradient(45deg, #00c6ff, #0072ff); */
-}
-.custom-bullet {
+  display: flex;
+   width: 89%;
+   height: 80%;
+   border-radius: 50px;
+   padding: 20px;
+   color: white;
+ }
+ .custom-bullet {
   display: inline-block;
-  width: 10px; /* Adjust size as needed */
-  height: 10px; /* Adjust size as needed */
-  background-color: black;
-  border-radius: 50%; /* To create a circular shape */
-  margin-right: 5px; /* Adjust margin as needed */
+  width: 10px; 
+  height: 10px; 
+  background-color: white;
+  border-radius: 50%; 
+  margin-right: 5px; 
   animation: blink 1s infinite;
-  vertical-align: middle; /* Align with text vertically */
+  vertical-align: middle; 
 }
-
 @keyframes blink {
   0%, 50% {
     opacity: 0;
@@ -27,24 +24,15 @@
     opacity: 1;
   }
 }
-
 h3 {
   margin: 0; /* Remove default margin for h3 */
   font-weight: normal; /* Reset font weight if needed */
   display: inline-block; /* Ensure inline display */
   vertical-align: middle; /* Align with bullet vertically */
 }
-
-/* .why-container{
-  display: flex;
-  justify-content: space-around;
-} */
 .left{
   width: 65%;
 }
-
-
-
 .paragraph-div{
   display: block;
   margin-block-start: 1em;
@@ -53,9 +41,6 @@ h3 {
   margin-inline-end: 0px;
   unicode-bidi: isolate;
 }
-
-
-
 .headings-div{
   display: block;
     margin-block-start: 1.33em;
@@ -65,7 +50,6 @@ h3 {
     font-weight: bold;
     unicode-bidi: isolate;
 } 
-
 .left__content__text {
   margin-top: clamp(24px, 2.5vw, 48px);
   max-width: 576px;
@@ -77,8 +61,6 @@ p{
   line-height: 160%;
   margin: 0;
 }
-
-
 .p3 {
   font-family: "DM Mono", monospace;
   font-size: 14px;
@@ -88,27 +70,18 @@ p{
   margin: 0;
   padding-top: 10px;
 }
-
-
-
-
 .numbers {
   font-family: "Onest", sans-serif;
   font-size: 36px;
   font-weight: 700;
-  margin: 10px 0; /* Add margin to create space above and below */
+  margin: 10px 0; 
 }
-
 .d2 {
   font-size: 70px;
   font-style: normal;
   font-weight: 200;
-  margin: 10px 0; /* Add margin to create space above and below */
+  margin: 10px 0; 
 }
-
-
-
-
 /* Define keyframes for the sliding animation */
 @keyframes slideInRight {
   0% {
@@ -120,16 +93,13 @@ p{
       opacity: 1;
   }
 }
-
-/* Apply the animation to the .numbers.d2 element */
 .numbers.d2 {
-  animation: slideInRight 1s ease-out forwards; /* Adjust timing and easing as needed */
+  animation: slideInRight 1s ease-out forwards; 
 }
-
 /* Optional: Smooth transition for opacity change */
 .numbers.d2 span {
   transition: opacity 0.3s ease; 
-  /* Adjust timing and easing as needed */
+
 }
 
 .numbers:hover{
@@ -137,20 +107,15 @@ p{
 }
 
 .right-item {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   margin: 0;
-  padding-bottom: 20px; /* Add padding to create space between items */
+  padding-bottom: 20px; 
 }
-
 .about-right {
   position: absolute;
   width: 32%;  
   margin: 0;
-  /* border: 2px solid white; */
-  /* z-index: 1; */
-
 }
-
 /* .right-right{
   position:absolute;
   border: 1px solid black;
@@ -162,19 +127,6 @@ p{
   background-image: url('https://th.bing.com/th/id/OIP.hgSch230TwQUoNuh38NpqAAAAA?w=345&h=345&rs=1&pid=ImgDetMain');
   z-index: 2;
 }  */
-
 .headings-div h1{
- 
   font-size: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
