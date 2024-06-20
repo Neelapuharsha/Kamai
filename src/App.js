@@ -11,7 +11,6 @@ import Highlights from './components/Section/Highlights'
 import Sphere from './components/Sphere/Sphere';
 import Why from './components/problemWhy/why';
 import Header1 from './components/Header/Header1';
-import CircularHeader from './components/Header/CircularHeader';
 // import HighlightsMain from './components/Section/Highlights';
 
 
@@ -20,7 +19,6 @@ function App() {
     <div className="App">
     
       <Header1 />
-     <CircularHeader/>
       
       <Section
         borderTopRightRadius="0px"
