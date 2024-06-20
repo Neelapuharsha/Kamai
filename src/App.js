@@ -17,17 +17,17 @@
 // function App() {
 //   return (
 //     <div className="App">
-    
+
 //       <Header1 />
-    
-      
+
+
 //       <Section
 //         borderTopRightRadius="0px"
 //         borderTopLeftRadius="0px"
 //       >
 //         <HeroSection />
 //       </Section>
-  
+
 //       <Section
 //         backgroundColor="#f1f6fb"
 //         borderTopRightRadius="40px"
@@ -36,7 +36,7 @@
 //         <Highlights/>
 
 //       </Section>
-      
+
 //       <Section
 //         backgroundColor="#fff"
 //         borderTopRightRadius="40px"
@@ -55,19 +55,19 @@
 //         borderTopLeftRadius="40px"
 //       >
 //         <Why />
-        
+
 //       </Section>
 
-      
+
 //       <Section
 //         backgroundColor="#111"
 //         borderTopRightRadius="40px"
 //         borderTopLeftRadius="40px"
 //       >
-      
+
 //         <Footer />
 //       </Section>
-      
+
 //     </div>
 //   );
 // }
@@ -86,6 +86,7 @@ import Highlights from './components/Section/Highlights';
 import Why from './components/problemWhy/why';
 
 import SplineViewer from './components/Footer/SplineViewer';
+import Whatk from './components/WhatSection/Whatk';
 
 function App() {
   const [whyVisible, setWhyVisible] = useState(false);
@@ -93,55 +94,64 @@ function App() {
   return (
     <div className="App">
       <Header1 />
-      
+
       <Section
         borderTopRightRadius="0px"
         borderTopLeftRadius="0px"
-        onVisible={() => {}}
+        onVisible={() => { }}
       >
         <HeroSection />
       </Section>
       <Section
-      backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
-      borderTopRightRadius="40px"
-      borderTopLeftRadius="40px"
-      onVisible={(visible) => setWhyVisible(visible)}
-    >
-      <Why trigger={whyVisible} />
-    </Section>
+        backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+        onVisible={(visible) => setWhyVisible(visible)}
+      >
+        <Why trigger={whyVisible} />
+      </Section>
       <Section
 
         backgroundColor="#f1f6fb"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
-        onVisible={() => {}}
+        onVisible={() => { }}
       >
-        <Highlights/>
+        <Whatk />
+      </Section>
+      <Section
+
+        backgroundColor="#f1f6fb"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+        onVisible={() => { }}
+      >
+        <Highlights />
       </Section>
 
       <Section
         backgroundColor="#fff"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
-        onVisible={() => {}}
+        onVisible={() => { }}
       >
         <Contact />
       </Section>
 
-      
-     
-      
+
+
+
       <Section
         backgroundColor="#E1EAFF"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
-        onVisible={() => {}}
+        onVisible={() => { }}
       >
 
 
 
-      
-      <SplineViewer/>
+
+        <SplineViewer />
       </Section>
     </div>
   );
