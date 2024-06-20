@@ -120,7 +120,7 @@ function App() {
         <Whatk />
       </Section>
       <Section
-
+        backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
         backgroundColor="#f1f6fb"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
