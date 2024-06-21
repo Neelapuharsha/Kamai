@@ -97,6 +97,7 @@ import Why from './components/problemWhy/why';
 
 import SplineViewer from './components/Footer/SplineViewer';
 import Whatk from './components/WhatSection/whatk';
+import OurTeams from './components/FloatingBar/OurTeams';
 
 function App() {
   const [whyVisible, setWhyVisible] = useState(false);
@@ -106,7 +107,7 @@ function App() {
       <Header1 />
 
       <Section
-        id="home"
+        backgroundColor="#fff"
         borderTopRightRadius="0px"
         borderTopLeftRadius="0px"
         onVisible={() => { }}
@@ -123,8 +124,8 @@ function App() {
         <Why trigger={whyVisible} />
       </Section>
       <Section
-        id="what"
-        backgroundColor="#f1f6fb"
+
+        backgroundColor="#fff"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
         onVisible={() => { }}
@@ -141,6 +142,16 @@ function App() {
       >
         <Highlights />
       </Section>
+      <Section
+        // "#f1f6fb"
+        backgroundColor="#fff"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+        onVisible={() => { }}
+      >
+        <OurTeams />
+      </Section>
+
       <Section
         id="contact"
         backgroundColor="#fff"
