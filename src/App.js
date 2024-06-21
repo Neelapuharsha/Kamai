@@ -114,6 +114,28 @@ function App() {
       >
         <HeroSection />
       </Section>
+<<<<<<< Updated upstream
+=======
+  
+      <Section
+        backgroundColor="#f1f6fb"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+        onVisible={() => {}}
+      >
+        <Highlights/>
+      </Section>
+      
+      <Section
+        backgroundColor="#f1f6fb"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+        onVisible={() => {}}
+      >
+        <Contact />
+      </Section>
+
+>>>>>>> Stashed changes
       <Section
         id="why"
         backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
