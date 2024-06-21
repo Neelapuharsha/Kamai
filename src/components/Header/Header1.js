@@ -57,7 +57,7 @@ import './Header1.css';
 import Button from '../Buttons/Button';
 import FullLogo from '../Landing page/images/WhiteK.png'
 import longLogo from './header images/WhiteK.png';
-import shortLogo from './header images/WhiteKonly.png';
+import shortLogo from './header images/KWhite.png';
 
 function Header1() {
   const [scrolled, setScrolled] = useState(false);
