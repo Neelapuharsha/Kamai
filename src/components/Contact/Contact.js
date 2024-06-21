@@ -39,7 +39,8 @@ const Contact = () => {
                 />
             </div>
 
-            <div className="vertical-line"></div>
+            {/* <div className="vertical-line"></div> */}
+            <div className='Form_div'>
                 <div className="card">
 
                     <form>
@@ -76,7 +77,9 @@ const Contact = () => {
 
                 </div>
             </div>
-        
+
+        </div>
+
 
     )
 }
