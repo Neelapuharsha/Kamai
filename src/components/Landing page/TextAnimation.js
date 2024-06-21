@@ -5,11 +5,11 @@ const TextAnimation = () => {
   return (
     <div className="text-animation">
       <p className="animated-text">
-        <span>K</span>
-        <span>a</span>
-        <span>m</span>
-        <span>A</span>
-        <span>i</span>
+        <span><strong>K</strong></span>
+        <span><strong>a</strong></span>
+        <span><strong>m</strong></span>
+        <span><strong>A</strong></span>
+        <span><strong>i</strong></span>
       </p>
     </div>
   );

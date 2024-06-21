@@ -1,11 +1,12 @@
 
 .footer {
-  width: 88%;
-  height: 80%;
-  /* border-radius: 50px; */
+  width: 93%;
+  height: 84%;
+  border-radius: 22px;
   text-align: center;
-  /* padding: 20px; */
-  background-color: #fff;
+  padding: 20px;
+  background-color: #E1EAFF;
+  
 } 
 
 .footer-hero-text {
@@ -36,24 +37,24 @@
   padding: 0%;
 }
 .demo1{
- 
+  /* border: 2px solid green; */
   position: absolute;
   width: 88%;
-  height: 80%;
+  height: 78%;
 }
 .demo2{
   padding: 8px;
-
+  /* border: 2px solid yellow; */
   pointer-events: none;
   position: absolute;
   width: 88%;
-  height: 80%;
+  height: 78%;
 }
 .demo3{
   /* border: 2px solid red; */
     padding: 8px;
     position: absolute;
-    top: 80%;
+    top: 74%;
     width: 88%;
     height: 15%;
 }
