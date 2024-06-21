@@ -98,14 +98,15 @@ function Header1() {
           </li>
           <li>
             <Link to="why" smooth={true} duration={500}>
-              About
+             Why?
             </Link>
           </li>
           <li>
             <Link to="what" smooth={true} duration={500}>
-              Services
+              About
             </Link>
           </li>
+          
           <li>
             <Link to="contact" smooth={true} duration={500}>
               Contact
@@ -117,7 +118,10 @@ function Header1() {
        {(scrolled && expanded) ? <img src={longLogo} className='header_full_logo'></img> : !scrolled ?  <img src={longLogo} className='header_full_logo'></img> : expanded ? <img src={longLogo} className='header_full_logo'></img> : <img src={shortLogo} className='header_short_logo'></img>}
         {/* Logic Improved to accomadate 3 statements ! */}
         </div>
+        <Link to="footer" smooth={true} duration={500}>
         <Button className={`btn ${scrolled && !expanded ? 'hidden' : ''}`} text="Download Project K" textColor="white" />
+      </Link>
+       
       </nav>
     </header>
   );

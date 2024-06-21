@@ -107,6 +107,7 @@ function App() {
       <Header1 />
 
       <Section
+      id="home"
         backgroundColor="#fff"
         borderTopRightRadius="0px"
         borderTopLeftRadius="0px"
@@ -136,7 +137,7 @@ function App() {
         <Why trigger={whyVisible} />
       </Section>
       <Section
-
+id="what"
         backgroundColor="#fff"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
@@ -174,7 +175,7 @@ function App() {
         <Contact />
       </Section>
       <Section
-        id="spline"
+        id="footer"
         backgroundColor="#111"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
