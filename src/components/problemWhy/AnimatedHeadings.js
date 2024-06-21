@@ -18,7 +18,7 @@ const AnimatedHeadings = () => {
   return (
     <div className="headings-div">
       <animated.h1 style={fadeIn}><KamaiHead /> envisions India as the</animated.h1>
-      <animated.h1 style={fadeIn}>world's skill capital,fulfilling demands.</animated.h1>
+      <animated.h1 style={fadeIn}>world's skill capital, fulfilling demands.</animated.h1>
     </div>
   );
 };

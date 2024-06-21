@@ -52,7 +52,7 @@ const TypingAnimation = ({ speed = 70, cursorBlinkSpeed = 500, trigger }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [showCursor, setShowCursor] = useState(true);
   const text =
-    "We improve our clients' marketing results with a data-driven approach and we are hell-bent on making it awesome. Our goal is to create a new, data-oriented quality of e-commerce experience by leveraging powerful real-time analytics.";
+    "Adeptly fulfilling global demands with a highly skilled and diverse workforce, By harnessing the nation's vast talent pool, KamAi aims to drive innovation and excellence across industries worldwide, fostering economic growth and development.";
 
   useEffect(() => {
     if (!trigger) {
