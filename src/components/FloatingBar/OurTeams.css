@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ot-floating-bar-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ot-background-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 750px;
+    background-repeat: no-repeat;
+    transition: opacity 0.8s ease-in;
+}
+
+.ot-rotate-enter {
+    opacity: 0;
+}
+
+.ot-rotate-exit {
+    opacity: 0;
+}
+
+.ot-floating-bar {
+    height: 58px;
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5086fb2e;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.ot-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+    cursor: pointer;
+}
+
+.ot-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.ot-top-img {
+    object-position: top;
+}
+
+.ot-centered-img {
+    object-position: center;
+}
+
+.ot-circle:hover img {
+    transform: scale(1.2);
+}
+
+.ot-circle:hover {
+    transform: scale(1.2);
+}
+
+.ot-card {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    width: 320px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px rgba(48, 141, 255, 0.298);
+    padding: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+    cursor: pointer;
+    top: -15px;
+    font-family: sans-serif;
+}
+
+.ot-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 0; /* Remove border radius */
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.ot-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ot-card h3 {
+    margin: 0;
+    font-size: 1.1em; /* Increased font size for the name */
+    text-align: left;
+}
+
+.ot-card h4 {
+    margin: 0;
+    font-size: 0.9em; /* Adjusted font size for the designation */
+    color: #555;
+    text-align: left;
+}
+
+.ot-card p {
+    font-size: 0.7em;
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+
+.ot-scroll-button {
+    background: none;
+    border: none;
+    font-size: 2.5em;
+    font-weight: 700;
+    cursor: pointer;
+    color: #1f66ff;
+    user-select: none;
+}
+
+.ot-left, .ot-right {
+    display: flex;
+    align-items: center;
+}
+
+.ot-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: top;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.ot-background-text {
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 40px;
+    letter-spacing: 30px;
+    color: #1f66ff;
+}
+
+.ot-scroll-button i {
+    font-size: 1em;
+    color: #1f66ff;
+}
+
+.ot-rotate-enter .ot-background-container,
+.ot-rotate-exit .ot-background-container {
+    opacity: 0.9;
+}
