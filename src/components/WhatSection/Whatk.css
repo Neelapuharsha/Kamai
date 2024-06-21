@@ -10,6 +10,8 @@
   grid-auto-flow: row;
   grid-template-rows: min-content;
   grid-gap: 24px;
+  width: 520px;
+  margin-bottom: 46px;
 }
 
 .whatk-list {
@@ -20,11 +22,11 @@
   padding: 0;
   overflow: hidden;
   list-style-type: none;
-  width: 100%;
+  width: 90%;
   min-width: 100%;
   flex-direction: row;
   /* border-top-right-radius: 40px; */
-  border-top-left-radius: 40px;
+  /* border-top-left-radius: 40px; */
 }
 
 .whatk-item {
