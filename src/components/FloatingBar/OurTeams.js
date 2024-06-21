@@ -11,20 +11,20 @@ import confetti from 'canvas-confetti';
 const people = [
   {
     name: 'Shashi K',
-    designation: 'CEO & Boss',
-    about: 'Shashi is the driving force behind our company, leading with vision and dedication.',
+    designation: 'CEO & BOSS',
+    about: 'Shashi is the driving force behind our company, leading with vision and values.',
     imgSrc: shashi
   },
   {
     name: 'Mangootha K',
-    designation: 'The Lady Boss',
+    designation: 'The Lady BOSS',
     about: 'Mangootha excels in strategic planning and operational excellence.',
     imgSrc: Mangootha
   },
   {
     name: 'Luna K',
     designation: 'Happiness Manager',
-    about: 'Luna ensures a positive and vibrant work environment, making sure everyone is happy and motivated.',
+    about: 'Luna ensures a positive work environment, making sure everyone is motivated.',
     imgSrc: luna
   },
   {
@@ -92,14 +92,14 @@ const OurTeams = () => {
     people[(currentIndex + 2) % people.length],
   ];
 
-  const currentPerson = people[currentIndex];
-  const backgroundPosition = currentPerson.name === 'Mangootha K' || currentPerson.name === 'Luna K' ? 'center' : 'top';
+  // const currentPerson = people[currentIndex];
+  // const backgroundPosition = currentPerson.name === 'Mangootha K' || currentPerson.name === 'Luna K' ? 'center' : 'top';
 
   return (
     <div className="ot-floating-bar-wrapper">
       <div
         className={`ot-background-container ${rotateClass}`}
-        style={{ backgroundImage: `url(${currentPerson.imgSrc})`, backgroundPosition }}
+        style={{ backgroundImage: `url(${people[currentIndex].imgSrc})`,}}
       ></div>
       <div className="ot-floating-bar">
         <button className="ot-scroll-button ot-left" onClick={handlePrev}>
@@ -111,7 +111,7 @@ const OurTeams = () => {
               <img
                 src={person.imgSrc}
                 alt={person.name}
-                className={person.name === 'Mangootha K' || person.name === 'Luna K' ? 'ot-centered-img' : 'ot-top-img'}
+                className='ot-centered-img'
               />
               <div className="ot-card-content">
                 <h3>{person.name}</h3>
@@ -124,7 +124,7 @@ const OurTeams = () => {
               <img
                 src={person.imgSrc}
                 alt={person.name}
-                className={person.name === 'Mangootha K' || person.name === 'Luna K' ? 'ot-centered-img' : 'ot-top-img'}
+                className='ot-centered-img'
               />
             </div>
           )
@@ -133,7 +133,7 @@ const OurTeams = () => {
           <i className="fas fa-chevron-circle-right"></i>
         </button>
       </div>
-      <div className="ot-background-overlay ot-background-text">{currentPerson.name}</div>
+      <div className="ot-background-overlay ot-background-text">{people[currentIndex].name}<p className="ot-background-para">{people[currentIndex].designation}</p></div>
     </div>
   );
 };

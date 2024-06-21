@@ -21,6 +21,7 @@
     background-size: 750px;
     background-repeat: no-repeat;
     transition: opacity 0.8s ease-in;
+    background-position: top;
 }
 
 .ot-rotate-enter {
@@ -53,6 +54,7 @@
     overflow: hidden;
     transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
     cursor: pointer;
+    
 }
 
 .ot-circle img {
@@ -60,6 +62,7 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    object-position: top;
 }
 
 .ot-top-img {
@@ -80,8 +83,10 @@
 
 .ot-card {
     display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
     width: 320px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
@@ -97,10 +102,12 @@
 .ot-card img {
     width: 60px;
     height: 60px;
-    border-radius: 0; /* Remove border radius */
+    border-radius: 0;
+    /* Remove border radius */
     object-fit: cover;
     flex-shrink: 0;
     margin-right: 10px;
+    object-position: top;
 }
 
 .ot-card-content {
@@ -113,21 +120,27 @@
 
 .ot-card h3 {
     margin: 0;
-    font-size: 1.1em; /* Increased font size for the name */
+    font-size: 1.1em;
+    /* Increased font size for the name */
     text-align: left;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .ot-card h4 {
     margin: 0;
-    font-size: 0.9em; /* Adjusted font size for the designation */
+    font-size: 0.8em;
+    /* Adjusted font size for the designation */
     color: #555;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ot-card p {
     font-size: 0.7em;
     text-align: left;
     margin: 5px 0 0 0;
+    line-height: 14px;
 }
 
 .ot-scroll-button {
@@ -153,20 +166,40 @@
     bottom: 0;
     background-size: cover;
     background-position: top;
-    opacity: 0.3;
+    opacity: 0.2;
     z-index: -1;
+    display: flex;
+    flex-direction: column;
 }
 
 .ot-background-text {
     font-size: 200px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     word-spacing: 40px;
-    letter-spacing: 30px;
+    letter-spacing: 20px;
+    color: #2f2f2f;
+    /* color: #1f66ff; */
+    padding: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    
+
+}
+.ot-background-para{
+    position: relative;
+    /* top: 23px; */
+    right: -450px;
+    text-align: end;
+    letter-spacing: 19px;
+    font-size: large;
+    color: #2f2f2f;
+}
+.ot-background-para .ot-background-text:hover{
     color: #1f66ff;
 }
 
