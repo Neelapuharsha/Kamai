@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: row;
   height: 100%;
-  /* max-height: 100%; */
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -24,12 +23,8 @@
   width: 100%;
   min-width: 100%;
   flex-direction: row;
-  border-top-right-radius: 40px;
+  /* border-top-right-radius: 40px; */
   border-top-left-radius: 40px;
-
-  @media only screen and (min-width: 1280px) {
-    flex-direction: row;
-  }
 }
 
 .whatk-item {
@@ -97,7 +92,7 @@
   text-transform: uppercase;
   color: #fff;
   transform: translate(-50%, -50%) rotate(0deg);
-  
+
   @media only screen and (min-width: 1280px) {
     top: 90%;
     left: 50%;
@@ -165,7 +160,6 @@
   width: max-content;
   height: max-content;
   object-fit: cover;
-  /* border-radius: 50%; */
   position: absolute;
   left: 400px;
   bottom: 20px;
@@ -173,5 +167,37 @@
 
   .active & {
     transform: scale(1.1);
+  }
+
+  @media only screen and (max-width: 768px) {
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .whatk-item {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .bio-title, .bio-description {
+    text-align: center;
+  }
+
+  .whatk-title {
+    font-size: 20px;
+    text-align: center;
   }
 }

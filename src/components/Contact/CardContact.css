@@ -1,33 +1,35 @@
 .main_div {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row; 
-    width: 90%;
-    height: 99%;
-    /* border: 2px solid black;    */
-}
-.Contact_info {
-    text-align: center;
-    /* margin-bottom: 50px; */
-    margin-top: 5%;
-    /* border: 2px solid blue;  */
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 80%;
-    margin-left: 5px;   
+    width: 100%;
+    height: 100vh; /* Full viewport height */
 }
 
+/* Style for the contact information section */
+.Contact_info {
+    text-align: center;
+    width: 50%; /* Take up half the width of the parent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background for the contact info section */
+    /* margin-right: 10px; Move the Contact_info div slightly to the right */
+    border-radius: 10px; /* Add border radius to Contact_info */
+}
+
+/* Style for the information header */
 .information h2 {
-    font-size: 36px;
-     margin-bottom: 35px; 
-    /* border: 2px solid red; */
     width: 60%;
+    font-size: 36px;
+    margin-bottom: 40px;
     font-family: sans-serif;
+<<<<<<< HEAD
     /* animation: blink 1s infinite; */
     font-size: 30px;
     /* color: black; */
+=======
+
+>>>>>>> da346e591b8c98e382f08d147943db4b37d2cc61
 }
 /* .custom-bullet-contact {
     display: inline-block;
@@ -49,64 +51,51 @@
   }
    */
 
-/* .information p {
-    font-size: 16px;
-    color: #555;
-    margin-left: 50px;
-    border: 2px solid black;
-    width: 53%;
-    margin-bottom: 20px;
-    font-size: 18px;
-    
-} */
+/* Style for the card contact sections */
 .card_div {
     display: flex;
     width: 400px;
     padding: 21px;
     height: 130px;
-    /* border: 1px solid #c90808; */
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     align-items: center;
-    transition: background-color 0.3s,transform 0.3s;
-    margin-left: 50px;
-    
-  
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 12%;
+    background-color: #fff;
 }
-.card_div:hover{
-    animation: zoomOut 2s ease-out infinite alternate
+
+/* Add hover animation to card contact sections */
+.card_div:hover {
+    animation: zoomOut 2s ease-out infinite alternate;
 }
-@keyframes zoomOut{
+
+/* Keyframes for hover animation */
+@keyframes zoomOut {
     0% {
-      transform: scale(1.03); /* Initial scale */
+        transform: scale(1.03); /* Initial scale */
     }
     50% {
-      transform: scale(1.05); /* Slightly larger scale */
+        transform: scale(1.05); /* Slightly larger scale */
     }
     100% {
-      transform: scale(1.05); /* Back to initial scale */
+        transform: scale(1.05); /* Back to initial scale */
     }
-  }
+}
+
+/* Add hover effects for card contact sections */
 .card_div:hover {
-    background:linear-gradient(45deg, #00c6ff, #0072ff); /* Change to your desired hover background color */
+    background: linear-gradient(45deg, #00c6ff, #0072ff); /* Change to your desired hover background color */
     transform: scale(0.95);
 }
+
+/* Add hover effects for the icon div */
 .card_div:hover .icon_div {
     background-color: #fff;
 }
 
-.icon_div {
-    padding-right: 20px;
-    transition: background-color 0.3s;
-}
-.card_div:hover .title{
-    color: #fff;
-}
-.card_div:hover .sub_content{
-    color: #fff;
-}
-
+/* Style for the icon div */
 .icon_div {
     flex: 0 0 auto;
     padding: 7px;
@@ -115,113 +104,92 @@
     align-items: center;
     background-color: rgb(196, 212, 243);
     border-radius: 10px;
+    transition: background-color 0.3s;
 }
 
+/* Style for the icon image */
 .icon {
     width: 30px;
-    height:30px;
-    
-    
+    height: 30px;
 }
 
+/* Style for the content section */
 .content {
     display: block;
     padding-left: 20px;
     text-align: left;
 }
+
+/* Style for the title text */
 .title {
     font-family: sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
-    /* color: #F59300; */
-    /* transition: color 0.3s; */
-    /* border: 1px solid black; */
 }
+
+/* Style for the subtitle text */
 .sub_content {
     font-family: sans-serif;
     font-size: 16px;
     color: #666;
     white-space: pre-line;
-    /* border: 1px solid black; */
-    /* transition: color 0.3s; */
 }
+
+/* Add spacing between subtitle lines */
 .sub_content_line {
     display: block;
     margin-top: 5px; /* Add space between sub-content lines */
     transition: color 0.3s;
 }
-.card {
-    background: #fff;
-    border-radius: 15px;
-    /* box-shadow: 0px 25px 80px rgba(59, 153, 207, 0.5); */
-    padding: 70px 60px;
-    width: 31%;
-    position: relative;
-    /* border: 2px solid red; */
-    margin-top: 7%;
-    height: 78%;
-    margin-right: 3%;
-    /* margin-left: 5%; */
-    background:linear-gradient(45deg, #00c6ff, #0072ff); /* Change to your desired hover background color */
 
+/* Style for the form container */
+.Form_div {
+    width: 50%; /* Take up half the width of the parent */
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    padding: 20px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
 }
 
-.card:before {
+/* Style for the form card */
+.card {
+    background: #fff;
+    border-radius: 15px; /* Add border radius to the card */
+    padding: 70px 60px;
+    width: 100%; /* Full width of the parent */
+    max-width: 430px; /* Decreased maximum width */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+/* Style for the decorative element */
+/* .card:before {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     width: 70px;
-    height: 70px;
-    background:linear-gradient(45deg, #00c6ff, #0072ff);
-    
-    border-radius: 0 35px 0 100px;
-}
-/* .Form_div{
-    width: 50%; */
-    /* border: 1px solid black; */
-
-/* .info_query{
-     margin-top: 5%; 
-}
-.info_query h2{
-    font-size: 36px;
-    margin-bottom: 10px; 
-   border: 2px solid red;
-   width: 50%;
-   font-family: sans-serif;
-   font-size: 20px;
-   color: #0072ff; */
-
-
-/* .info_query p{
-    font-size: 16px;
-    color: #555;
-    /* margin-left: 10px; */
-    /* border: 2px solid black;
-    width: 50%;
-    margin-bottom: 20px;
-    font-size: 18px;  
+    height: 75px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border-radius: 0 40px 0 100px;
 } */
-.contact-btn{
-    color: black;
-    padding: 10px 135px 10px 135px;
-    /* background: linear-gradient(45deg, #00c6ff, #0072ff); */
+
+/* Style for the submit button */
+.contact-btn {
+    color: #fff;
+    padding: 10px 135px;
     border-radius: 30px;
     border: none;
     margin-top: 10px;
     cursor: pointer;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
 }
-.vertical-line {
-    width: 1px;
-    height: 100px; /* Adjust the height as needed */
-    background-color: gray; /* Adjust the color as needed */
-    margin: 20% 20px; /* Adjust the horizontal margin as needed */
-    margin-right: 15%;
-  }
-.contact-btn:hover{
-  color: #fff;
-  border-color: white; /* Darker border color on hover */
-  background: linear-gradient(45deg, #00c6ff, #0072ff);
-  box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3); /* Subtle box shadow on hover */
+
+/* Add hover effects for the submit button */
+.contact-btn:hover {
+    color: #fff;
+    border-color: white; /* Darker border color on hover */
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3); /* Subtle box shadow on hover */
 }

@@ -15,7 +15,7 @@
     height: 130px; 
     padding: 0.5rem; /* Adjusted padding */
     font: size 0.9em;;
-    border: none;
+    border: 1px solid #0072ff;
     outline: none;
     border-radius: 10px;
     border-radius: 6px;

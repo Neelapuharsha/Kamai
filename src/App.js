@@ -1,79 +1,89 @@
-// import React from 'react';
+
+
+
+// import React, { useState } from 'react';
 // import './App.css';
 // import Section from './components/Section/Section';
-// import Header from './components/Header/Header1';
+// import Header1 from './components/Header/Header1';
 // import Footer from './components/Footer/Footer';
 // import HeroSection from './components/Landing page/HeroSection';
-// import FlamingoComponent from './components/moreFeatures/FlamingoComponent';
-// import DownloadSection from './components/Download/DownloadSection';
 // import Contact from './components/Contact/Contact';
-// import Highlights from './components/Section/Highlights'
-// import Sphere from './components/Sphere/Sphere';
+// import Highlights from './components/Section/Highlights';
 // import Why from './components/problemWhy/why';
-// import Header1 from './components/Header/Header1';
-// // import HighlightsMain from './components/Section/Highlights';
 
+// import SplineViewer from './components/Footer/SplineViewer';
+// import Whatk from './components/WhatSection/whatk';
 
 // function App() {
+//   const [whyVisible, setWhyVisible] = useState(false);
+
 //   return (
 //     <div className="App">
-
 //       <Header1 />
-
 
 //       <Section
 //         borderTopRightRadius="0px"
 //         borderTopLeftRadius="0px"
+//         onVisible={() => { }}
 //       >
 //         <HeroSection />
 //       </Section>
-
 //       <Section
+//         backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
+//         borderTopRightRadius="40px"
+//         borderTopLeftRadius="40px"
+//         onVisible={(visible) => setWhyVisible(visible)}
+//       >
+//         <Why trigger={whyVisible} />
+//       </Section>
+//       <Section
+
 //         backgroundColor="#f1f6fb"
 //         borderTopRightRadius="40px"
 //         borderTopLeftRadius="40px"
+//         onVisible={() => { }}
 //       >
-//         <Highlights/>
-
+//         <Whatk />
+//       </Section>
+//       <Section
+//         backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
+//         backgroundColor="#f1f6fb"
+//         borderTopRightRadius="40px"
+//         borderTopLeftRadius="40px"
+//         onVisible={() => { }}
+//       >
+//         <Highlights />
 //       </Section>
 
 //       <Section
 //         backgroundColor="#fff"
 //         borderTopRightRadius="40px"
 //         borderTopLeftRadius="40px"
+//         onVisible={() => { }}
 //       >
-
-//     <Contact />
+//         <Contact />
 //       </Section>
 
 
-
-//       <Section
-
-//         backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
-//         borderTopRightRadius="40px"
-//         borderTopLeftRadius="40px"
-//       >
-//         <Why />
-
-//       </Section>
 
 
 //       <Section
 //         backgroundColor="#111"
 //         borderTopRightRadius="40px"
 //         borderTopLeftRadius="40px"
+//         onVisible={() => { }}
 //       >
 
-//         <Footer />
-//       </Section>
 
+
+
+//         <SplineViewer />
+//       </Section>
 //     </div>
 //   );
 // }
 
 // export default App;
-
 
 import React, { useState } from 'react';
 import './App.css';
@@ -104,7 +114,20 @@ function App() {
       >
         <HeroSection />
       </Section>
+  
+     
+      
+      {/* <Section
+        backgroundColor="#f1f6fb"
+        borderTopRightRadius="40px"
+        borderTopLeftRadius="40px"
+        onVisible={() => {}}
+      >
+        
+      </Section> */}
+
       <Section
+        id="why"
         backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
@@ -122,6 +145,7 @@ function App() {
         <Whatk />
       </Section>
       <Section
+        id="highlights"
         backgroundImage="linear-gradient(45deg, #00c6ff, #0072ff)"
         backgroundColor="#f1f6fb"
         borderTopRightRadius="40px"
@@ -141,6 +165,7 @@ function App() {
       </Section>
 
       <Section
+        id="contact"
         backgroundColor="#fff"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
@@ -148,20 +173,13 @@ function App() {
       >
         <Contact />
       </Section>
-
-
-
-
       <Section
-        backgroundColor="#E1EAFF"
+        id="spline"
+        backgroundColor="#111"
         borderTopRightRadius="40px"
         borderTopLeftRadius="40px"
         onVisible={() => { }}
       >
-
-
-
-
         <SplineViewer />
       </Section>
     </div>
