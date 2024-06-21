@@ -24,6 +24,9 @@
   height: fit-content;
   transform-origin: top left;
   transform: rotate(90deg) translateY(-100vh);
+  position: relative;
+    right: 13%;
+    top: 80px;
 }
 
 /* Hide Scrollbar */
@@ -101,8 +104,8 @@
 
 /* Different styles for each card */
 .square {
-  width: 400px; /* Oversized square width */
-  height: 400px; /* Oversized square height */
+  width: 600px; /* Oversized square width */
+  height: 300px; /* Oversized square height */
 }
 
 .rect-vertical {
@@ -167,4 +170,7 @@
   .highlight-text-container p {
     font-size: 16px;
   }
+}
+.spacer{
+  height: 20px;
 }

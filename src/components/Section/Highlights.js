@@ -22,17 +22,18 @@ const highlightsData = [
     style: 'rect-horizontal', // Unique style
   },
   {
-    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrHro6d3BTw7ZZ4IXgfb6_8aESB7-SsWfelDSSInZVamiMSnYpBZzGBaZBBrWxWwYgLqOHuOtroGvGjxrwzdUkhjwuIvM1u6chIblGKS1gQ6JVkjXr-Vztyk2zoYb1ylvhNgLgC5q6M-7LaiXT1xnAT96DvkPx89APNb8JEaz-1mnMRcfaOYYBHzQL/s1600/Text%20to%20Speech%20-%20Social%20-%201024x512.png', // Random image from Unsplash
-    title: 'Text to Speech',
-    keyHighlight: 'Convert job descriptions to audio',
-    style: 'square', // Unique style
-  },
-  {
     image: 'https://estricalla.hypotheses.org/files/2021/02/limitedexperience_hero_social.gif', // Random image from Unsplash
     title: 'Create Your Own Resume',
     keyHighlight: 'Build a resume with customizable templates',
     style: 'rect-vertical', // Unique style
   },
+  {
+    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrHro6d3BTw7ZZ4IXgfb6_8aESB7-SsWfelDSSInZVamiMSnYpBZzGBaZBBrWxWwYgLqOHuOtroGvGjxrwzdUkhjwuIvM1u6chIblGKS1gQ6JVkjXr-Vztyk2zoYb1ylvhNgLgC5q6M-7LaiXT1xnAT96DvkPx89APNb8JEaz-1mnMRcfaOYYBHzQL/s1600/Text%20to%20Speech%20-%20Social%20-%201024x512.png', // Random image from Unsplash
+    title: 'Text to Speech',
+    keyHighlight: 'Convert job descriptions to audio',
+    style: 'square', // Unique style
+  }
+  
 ];
 
 const Highlights = () => {
