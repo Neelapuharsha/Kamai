@@ -6,6 +6,7 @@ import Button from '../Buttons/Button';
 import image from "../Contact/location1.png";
 import image1 from "../Contact/phone1.png";
 import image2 from "../Contact/email1.png";
+import Blink from '../Blinking/Blink';
 
 const Contact = () => {
     const [name, setName,] = useState('');
@@ -15,7 +16,8 @@ const Contact = () => {
         <div className='main_div'>
             <div className='Contact_info'>
                 <div className='information'>
-                    <h2>Contact Us</h2>
+                    {/* <span className="custom-bullet-contact"></span>Contact Us</h2> */}
+                    <h5><Blink text="CONTACT US" textColor="black" blinkColor="black" /></h5>
                     {/* <p>Provide most popular courses that your want to join and lets start the course for the most simply courses here you can build your career very smoothly.</p> */}
                 </div>
                 <CardContact

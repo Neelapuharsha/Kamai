@@ -7,6 +7,7 @@ import varshitha from './varshitha.png';
 import luna from './luna.png'; // Import additional photos as needed
 import Mangootha from './mangootha.png';
 import confetti from 'canvas-confetti';
+import Blink from '../Blinking/Blink';
 
 const people = [
   {
@@ -97,7 +98,9 @@ const OurTeams = () => {
 
   return (
     <div className="ot-floating-bar-wrapper">
+      <h5><Blink text="TEAM MEMBERS" textColor="black" blinkColor="black" /></h5>
       <div
+      
         className={`ot-background-container ${rotateClass}`}
         style={{ backgroundImage: `url(${people[currentIndex].imgSrc})`,}}
       ></div>

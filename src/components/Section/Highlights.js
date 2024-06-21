@@ -1,5 +1,6 @@
 import React from 'react';
 import './Highlights.css';
+import Blink from '../Blinking/Blink';
 
 const highlightsData = [
   {
@@ -38,7 +39,8 @@ const Highlights = () => {
   return (
     <div className="highlights-main">
       <div className="main-heading">
-        <h1>Key Features</h1>
+        {/* <h1><span className="custom-bullet-highlights"></span>Key Features</h1> */}
+        <h5><Blink text="KEY FEATURES" textColor="white" blinkColor="white" position="relative" top="0" left="26%" /></h5>
       </div>
       <div className="highlights-article">
         {highlightsData.map((highlight, index) => (

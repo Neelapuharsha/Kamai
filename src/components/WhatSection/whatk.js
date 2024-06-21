@@ -4,6 +4,7 @@ import image1 from './image1.png'
 import image2 from './image2.png'
 import image3 from './image3.png'
 import image4 from './image4.png'
+import Blink from '../Blinking/Blink';
 
 const Whatk = () => {
   const [active, setActive] = useState(0);
@@ -35,7 +36,9 @@ const Whatk = () => {
   ];
 
   return (
+    
     <ul className="whatk-list">
+      <h5><Blink text="ABOUT KamAi" textColor="black" blinkColor="black" /></h5>
       {sections.map((section, i) => (
         <li
           key={i}
