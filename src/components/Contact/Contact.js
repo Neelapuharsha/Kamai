@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className='information'>
                     {/* <span className="custom-bullet-contact"></span>Contact Us</h2> */}
                     <h5><Blink text="contact us" textColor="black" blinkColor="black" /></h5>
-                    {/* <p>Provide most popular courses that your want to join and lets start the course for the most simply courses here you can build your career very smoothly.</p> */}
+                    <p>Feel Free to contact us any time. We will get back to you as soon as we can!.</p> 
                 </div>
                 <CardContact
                     imageSrc={image}
@@ -43,8 +43,9 @@ const Contact = () => {
 
             {/* <div className="vertical-line"></div> */}
             <div className='Form_div'>
+            
                 <div className="card">
-
+                <h2>Send message</h2>
                     <form>
                         <Input
                             label="Name"
