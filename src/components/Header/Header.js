@@ -132,7 +132,7 @@ function Header1() {
           <li>Contact</li>
         </ul>
         <div className="logo">
-          {expanded ? 'Project K' : 'K'}
+          {expanded ? 'KamAi' : 'K'}
         </div>
         <Button className={`btn ${scrolled && !expanded ? 'hidden' : ''}`} text="Download Project K" textColor="white" />
       </nav>

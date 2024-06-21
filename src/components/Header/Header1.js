@@ -40,8 +40,10 @@ function Header1() {
           <li>Services</li>
           <li>Contact</li>
         </ul>
+         {/* Logic Improved to accomadate 3 statements ! */}
         <div className="logo" onClick={handleLogoClick}>
-          {scrolled ? 'K' : 'Project K'}
+       {(scrolled && expanded) ? 'KamAi' : !scrolled ?  'KamAi' : expanded ? 'KamAi' : 'K'}
+        {/* Logic Improved to accomadate 3 statements ! */}
         </div>
         <Button className={`btn ${scrolled && !expanded ? 'hidden' : ''}`} text="Download Project K" textColor="white" />
       </nav>
