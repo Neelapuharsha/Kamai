@@ -98,7 +98,7 @@ const OurTeams = () => {
 
   return (
     <div className="ot-floating-bar-wrapper">
-      <h5><Blink text="TEAM MEMBERS" textColor="black" blinkColor="black" /></h5>
+      <h5><Blink text="team members" textColor="black" blinkColor="black" /></h5>
       <div
       
         className={`ot-background-container ${rotateClass}`}

@@ -166,6 +166,7 @@ import InfinityAnimation from './InfinityAnimation';
 import TypingAnimation from './typingAnimation';
 import AnimatedHeadings from './AnimatedHeadings';
 import Blink from '../Blinking/Blink';
+import Button from '../Buttons/Button';
 
 const Why = ({ trigger }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -182,15 +183,20 @@ const Why = ({ trigger }) => {
       <div className='left'>
         <div className='header-p'>
           {/* <h3 className='p3'><span className="custom-bullet"></span> WHY US</h3> */}
-          <h5><Blink text="WHY US" textColor="white" blinkColor="white" /></h5>
+          <h5><Blink text="why us" textColor="white" blinkColor="white" /></h5>
         </div>
 
         <div className='headings-div'>
           <AnimatedHeadings />
+
         </div>
         
         <div className="paragraph-div">
           <TypingAnimation trigger={trigger} />
+          
+        </div>
+        <div className='secondaryyy'>
+        <Button className="btn-secondaryy" text="Join Us" border='none'/>
         </div>
       </div>
 

@@ -17,7 +17,7 @@ const Contact = () => {
             <div className='Contact_info'>
                 <div className='information'>
                     {/* <span className="custom-bullet-contact"></span>Contact Us</h2> */}
-                    <h5><Blink text="CONTACT US" textColor="black" blinkColor="black" /></h5>
+                    <h5><Blink text="contact us" textColor="black" blinkColor="black" /></h5>
                     {/* <p>Provide most popular courses that your want to join and lets start the course for the most simply courses here you can build your career very smoothly.</p> */}
                 </div>
                 <CardContact

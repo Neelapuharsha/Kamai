@@ -40,7 +40,7 @@ const Highlights = () => {
     <div className="highlights-main">
       <div className="main-heading">
         {/* <h1><span className="custom-bullet-highlights"></span>Key Features</h1> */}
-        <h5><Blink text="KEY FEATURES" textColor="white" blinkColor="white" position="relative" top="0" left="26%" /></h5>
+        <h5><Blink text="key features" textColor="white" blinkColor="white" position="relative" top="0" left="26%" /></h5>
       </div>
       <div className="highlights-article">
         {highlightsData.map((highlight, index) => (
