@@ -1,20 +1,24 @@
 .main_div {
     display: flex;
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
+    /* Full viewport height */
 }
 
 /* Style for the contact information section */
 .Contact_info {
     text-align: center;
-    width: 50%; /* Take up half the width of the parent */
+    width: 49%;
+    /* Take up half the width of the parent */
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background-color: #f0f0f0; /* Light grey background for the contact info section */
+    background-color: #f0f0f0;
+    /* Light grey background for the contact info section */
     /* margin-right: 10px; Move the Contact_info div slightly to the right */
-    border-radius: 10px; /* Add border radius to Contact_info */
+    border-radius: 10px;
+    /* Add border radius to Contact_info */
 }
 
 /* Style for the information header */
@@ -25,13 +29,14 @@
     font-family: sans-serif;
 
 }
-.information p{
+
+.information p {
     width: 50%;
     font-size: 17px;
     text-align: left;
     margin-left: 15%;
     margin-bottom: 30px;
-    
+
 }
 
 /* Style for the card contact sections */
@@ -57,19 +62,25 @@
 /* Keyframes for hover animation */
 @keyframes zoomOut {
     0% {
-        transform: scale(1.03); /* Initial scale */
+        transform: scale(1.03);
+        /* Initial scale */
     }
+
     50% {
-        transform: scale(1.05); /* Slightly larger scale */
+        transform: scale(1.05);
+        /* Slightly larger scale */
     }
+
     100% {
-        transform: scale(1.05); /* Back to initial scale */
+        transform: scale(1.05);
+        /* Back to initial scale */
     }
 }
 
 /* Add hover effects for card contact sections */
 .card_div:hover {
-    background: linear-gradient(45deg, #00c6ff, #0072ff); /* Change to your desired hover background color */
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    /* Change to your desired hover background color */
     transform: scale(0.95);
 }
 
@@ -121,16 +132,20 @@
 /* Add spacing between subtitle lines */
 .sub_content_line {
     display: block;
-    margin-top: 5px; /* Add space between sub-content lines */
+    margin-top: 5px;
+    /* Add space between sub-content lines */
     transition: color 0.3s;
 }
 
 /* Style for the form container */
 .Form_div {
-    width: 50%; /* Take up half the width of the parent */
+    width: 51%;
+    /* Take up half the width of the parent */
     display: flex;
-    justify-content: center; /* Center the form horizontally */
-    align-items: center; /* Center the form vertically */
+    justify-content: center;
+    /* Center the form horizontally */
+    align-items: center;
+    /* Center the form vertically */
     padding: 20px;
     background: linear-gradient(45deg, #00c6ff, #0072ff);
 }
@@ -138,14 +153,19 @@
 /* Style for the form card */
 .card {
     background: #fff;
-    border-radius: 15px; /* Add border radius to the card */
+    border-radius: 15px;
+    /* Add border radius to the card */
     padding: 60px 60px;
-    width: 100%; /* Full width of the parent */
-    max-width: 430px; /* Decreased maximum width */
+    width: 100%;
+    /* Full width of the parent */
+    max-width: 430px;
+    /* Decreased maximum width */
     position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: adds a subtle shadow */
 }
-.card h2{
+
+.card h2 {
     font-family: sans-serif;
     text-align: center;
     padding-bottom: 20px;
@@ -178,7 +198,9 @@
 /* Add hover effects for the submit button */
 .contact-btn:hover {
     color: #fff;
-    border-color: white; /* Darker border color on hover */
+    border-color: white;
+    /* Darker border color on hover */
     background: linear-gradient(45deg, #00c6ff, #0072ff);
-    box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3); /* Subtle box shadow on hover */
+    box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3);
+    /* Subtle box shadow on hover */
 }
