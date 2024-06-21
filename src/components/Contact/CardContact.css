@@ -21,9 +21,17 @@
 .information h2 {
     width: 60%;
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     font-family: sans-serif;
 
+}
+.information p{
+    width: 50%;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    
 }
 
 /* Style for the card contact sections */
@@ -34,7 +42,7 @@
     height: 130px;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     align-items: center;
     transition: background-color 0.3s, transform 0.3s;
     margin-left: 12%;
@@ -131,11 +139,17 @@
 .card {
     background: #fff;
     border-radius: 15px; /* Add border radius to the card */
-    padding: 70px 60px;
+    padding: 60px 60px;
     width: 100%; /* Full width of the parent */
     max-width: 430px; /* Decreased maximum width */
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+.card h2{
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+
 }
 
 /* Style for the decorative element */
