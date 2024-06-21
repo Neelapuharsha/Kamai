@@ -26,6 +26,7 @@
   /* Adds some padding */
   white-space: nowrap;
   font-family: "DM Mono", monospace;
+  text-transform: capitalize;
   /* Background color for better visibility */
   z-index: 1000; /* Ensures it stays on top of other elements */
 }

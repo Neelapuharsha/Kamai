@@ -38,7 +38,7 @@ const Whatk = () => {
   return (
     
     <ul className="whatk-list">
-      <h5><Blink text="ABOUT KamAi" textColor="black" blinkColor="black" /></h5>
+      <h5><Blink text="About kamAi" textColor="black" blinkColor="black" /></h5>
       {sections.map((section, i) => (
         <li
           key={i}
