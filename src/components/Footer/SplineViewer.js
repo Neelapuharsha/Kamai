@@ -51,6 +51,7 @@ const SplineViewer = () => {
       <div className='demo1'>
       <spline-viewer url="https://prod.spline.design/srCEmVK1iTeFHc7f/scene.splinecode"></spline-viewer></div>
         <div className='demo2'>
+        <h4 className="footer-section-text">Download Now</h4>
           <h1 className="footer-hero-text">Finding Jobs, Creating Livelihoods</h1>
           
         </div>
