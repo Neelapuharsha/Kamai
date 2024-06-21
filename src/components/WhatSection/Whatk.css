@@ -161,7 +161,7 @@
   height: max-content;
   object-fit: cover;
   position: absolute;
-  left: 400px;
+  left: 60%;
   bottom: 20px;
   transition: transform 0.3s ease;
 

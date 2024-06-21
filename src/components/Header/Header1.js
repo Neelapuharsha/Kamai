@@ -55,6 +55,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import './Header1.css';
 import Button from '../Buttons/Button';
+import FullLogo from '../Landing page/images/WhiteK.png'
 
 function Header1() {
   const [scrolled, setScrolled] = useState(false);
