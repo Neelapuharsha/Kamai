@@ -56,6 +56,8 @@ import { Link } from 'react-scroll';
 import './Header1.css';
 import Button from '../Buttons/Button';
 import FullLogo from '../Landing page/images/WhiteK.png'
+import longLogo from './header images/WhiteK.png';
+import shortLogo from './header images/WhiteKonly.png';
 
 function Header1() {
   const [scrolled, setScrolled] = useState(false);
@@ -112,7 +114,7 @@ function Header1() {
         </ul>
          {/* Logic Improved to accomadate 3 statements ! */}
         <div className="logo" onClick={handleLogoClick}>
-       {(scrolled && expanded) ? 'KamAi' : !scrolled ?  'KamAi' : expanded ? 'KamAi' : 'K'}
+       {(scrolled && expanded) ? <img src={longLogo} className='header_full_logo'></img> : !scrolled ?  <img src={longLogo} className='header_full_logo'></img> : expanded ? <img src={longLogo} className='header_full_logo'></img> : <img src={shortLogo} className='header_short_logo'></img>}
         {/* Logic Improved to accomadate 3 statements ! */}
         </div>
         <Button className={`btn ${scrolled && !expanded ? 'hidden' : ''}`} text="Download Project K" textColor="white" />
